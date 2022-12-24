@@ -1,0 +1,120 @@
+/** Block **/
+.faqs-chat-content {
+
+  img {
+    width: 422px;
+    height: 450px;
+    position: relative;
+  }
+
+  p {
+    background: var(--page-color);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+    border-bottom-left-radius:  1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    span {
+      display: inline-block;
+      margin-right: 3.375rem;
+      line-height: 1;
+    }
+    
+    svg {
+      position: relative!important;
+      transform: unset!important;
+      height: 1em;
+      width: auto;
+      margin-bottom: 0.25em;
+      path {
+        fill: #fff;
+      }
+    }
+  }
+}
+
+/** Home **/
+.faqs-chat {
+  // padding: 120px 0;
+
+  &-img {
+    @include bg;
+    background-size: contain;
+    $size: 350px;
+    width: $size;
+    padding-bottom: $size;
+  }
+
+  details > div > *{
+    @include bdy-lg(500);
+    // padding: 1.125rem 0 1.125rem 3rem;
+  }
+  summary {
+    svg {
+      margin-top: -0.25em;
+      margin-right: 1.125rem;
+    }
+  }
+  // summary {
+  //   border-bottom: 2px solid #e2e2e2;
+  // }
+  .fc-faqs > div:first-of-type details {
+    border-top: 2px solid #e2e2e2;
+  }
+  details {
+    // max-width: 350px;
+    // margin: 50px auto;
+
+    summary {
+      list-style: none;
+      display: block;
+      // background-color: #f4f4f4;
+      padding: 5px 10px;
+      position: relative;
+      cursor: pointer;
+      // font-family: Rajdhani;
+      // color: #275d38;
+      // font-size: 24px;
+
+      &::-webkit-details-marker {
+        display: none;
+      }
+      &:before {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // content: "\f0fe";
+        font-family: FontAwesome;
+        font-size: 90%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        width: 30px;
+        color: #fff;
+        background-color: #285d39;
+      }
+    }
+    > :not(summary) {
+      // padding: 10px;
+      // background-color: #fff;
+      // transform: scaleY(0);
+      // transform-origin: top;
+      // opacity: 0;
+      // transition: opacity 1s;
+    }
+
+    &[open] summary:before {
+      // content: "\f146";
+    }
+    &[open] > :not(summary) {
+      // transition-delay: 0.5s;
+      // transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+}

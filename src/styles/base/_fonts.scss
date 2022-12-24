@@ -1,0 +1,36 @@
+// @see https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face
+@font-face {
+  font-family: "ITC";
+  src: url("../../assets/fonts/ITC Avant Garde Gothic Std Extra Light.otf")
+    format("opentype");
+  font-weight: 300;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ITC";
+  src: url("../../assets/fonts/ITC Avant Garde Gothic Std Book.otf")
+    format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ITC";
+  src: url("../../assets/fonts/ITC Avant Garde Gothic Std Medium.otf")
+    format("opentype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ITC";
+  src: url("../../assets/fonts/ITC Avant Garde Gothic Std Demi.otf")
+    format("opentype");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "ITC";
+  src: url("../../assets/fonts/ITC Avant Garde Gothic Std Bold.otf")
+    format("opentype");
+  font-weight: 700;
+  font-display: swap;
+}

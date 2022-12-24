@@ -1,0 +1,91 @@
+/** PAGE SPECIFIC */
+
+.page-id-143,
+body.hi5-sodas,
+body.drinks,
+.single-drink {
+  $pageRed: var(--page-color); //root var to reduce duplication
+  #site-footer {
+    background-color: $pageRed !important;
+
+    #gentle-wave {
+      fill: $pageRed;
+    }
+  }
+  .creator-link {
+    $color: rgba(0, 0, 0, 0.65);
+    color: $color;
+    a {
+      color: $color;
+      &:hover {
+        color: $color;
+      }
+    }
+  }
+}
+
+.single-drink {
+  color: var(--page-color);
+  .slick-arrow {
+    //TODO check
+    path:first-child {
+      fill: var(--page-color);
+    }
+  }
+  //TODO class
+  *:not(.drink-reviews-container) > *:not(.social-icon):not(.logo-link) > svg:not([class]) {
+    path:first-child {
+      fill: var(--page-color);
+    }
+  }
+  // .logo-link svg {
+  //   path {//}:not(:nth-child(2)) {
+  //     fill: var(--page-color);
+  //   }
+  // }
+  .header-links a {
+    color: var(--page-color);
+    transition: 0.35s ease-out;
+    transition-delay: 0.05s;
+    &:hover {
+      color: lighten($blue, 5%);
+    }
+  }
+  *:not(.social-icon) > svg[class] {
+    path {
+      fill: var(--page-color);
+    }
+  }
+  .colored-section svg[class] {
+    path {
+      fill: #fff;
+    }
+  }
+  .colored-section {
+    h2 {
+      color: #fff;
+    }
+    .slick-arrow {
+      path:first-child {
+        fill: #fff;
+      }
+      path:last-child {
+        fill: var(--page-color);
+      }
+    }
+  }
+
+  .drink-reviews {//.slick-arrow { //TODO single/colored section
+    // svg {
+    path:nth-child(2) {
+      fill: var(--page-color);
+    }
+      path:first-child {
+        fill: #fff;
+      }
+    // }
+    svg {
+      filter: drop-shadow(0 0 2px var(--page-color));
+    }
+  }
+}

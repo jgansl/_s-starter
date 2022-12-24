@@ -1,0 +1,74 @@
+// About
+
+.navbar-wrap:has(~ #site-main .hero) {
+   position: absolute;
+   top: 0;
+   width: 100%;
+   background: unset;
+}
+.hero {
+   height: 100vh;
+   &-img {
+      height: 100%;
+      overflow: hidden;
+      @include cover();
+   }
+   img {
+      width:100%;
+      height: 100%;
+      object-fit: cover; //TODO generic
+      object-position: center 25%;
+   }
+}
+
+.about-overview {
+   position: relative;
+   z-index: 1;
+   
+   //TODo class
+   // &:before {
+   //    content: "";
+   //    @include cover;
+   //    background-color: var(--page-color);
+   // }
+   // color: #fff;
+   $var1: calc(226vw / 19.2); //tdd
+   $var2: calc(334vw / 19.2); //bdd
+   margin: $var2 auto;
+   padding-top: 0;//overwrite section-description
+   padding-bottom: 2rem;
+
+   &-content {
+      svg.hi5-logo { //TODO below 375
+         @include clamp('width', 180px, calc(15.804878048780488vw + 120.73170731707316px), 342px);
+         height: auto; //330px;
+         @include clamp('margin-bottom', 30px, calc(6.634146341463415vw + 5.121951219512184px), 98px);
+      }
+      p {
+         //! global @include clamp('font-size', 20px, calc(1.170731707317073vw + 15.609756097560975px), 32px);
+         margin-bottom: 0;
+         @include respond-below(sm) {
+            text-align: left;
+         }
+      }
+   }
+
+   // .title {} //TODO sr-only
+   
+   *[class*=-tdd] {
+      top: calc(#{$var1} * -0.9); //!0.95
+      transform: rotate(180deg) scaleX(1) translateY(-2px); //TODO TMP
+   }
+   *[class*=-bdd] {
+      bottom: calc(#{$var2} * -1); //!0.95
+   }
+}
+//generic //TODO change anchor - -bottom-desktop
+*[class*=-tdd], 
+*[class*=-bdd] { 
+   @include section-full;
+   position: absolute;
+   left: 0;
+   height: auto;
+   width:100vw;
+}

@@ -1,0 +1,116 @@
+.fast-acting {
+   // margin: 0!important;
+   margin-top: -5%;//!important;
+   margin-bottom: 400px;
+   padding-top: 120px;// 0 0;
+   display: flex;
+   justify-content: center;
+
+   gap: 4%;
+   &-img { 
+      aspect-ratio: 1.75 / 1;
+      $size: 180px;
+      margin-top: calc(#{$size} / 2);
+      margin-bottom: -$size;
+      flex: 0 0 40%; 
+      width: 40%;
+      // padding-bottom: 30%;
+      // height: 0;
+      position: relative;
+      z-index: 1;
+      img {
+         position: absolute;
+         top: 0;
+         right: 0;
+         object-fit: contain;
+         max-width: 100%;
+         max-height: 100%;
+      }
+   }
+   &-content { 
+      flex: 0 0 54%; 
+      color: #fff;
+      margin-top: 10%;
+   }
+   
+   .is-1 {
+      font-size: min(128px, calc(6.1746vw + 9.43px));
+   }
+   
+   // svg {
+   //    display: none;
+   // }
+   // &:before {
+   //    content:"";
+   //    @include cover;
+   //    background-color: $blue;
+   //    transform: translateY(-40%);
+   //    height: 140%;
+   // }
+   // svg[class^=plain-wave-bg] {
+   //    @include cover;
+   //    max-width: unset;
+   //    height: unset;
+   // }
+   // .plain-wave-bg {
+   //    &-desktop {
+   //       width: 210vw!important;
+   //       height: unset;
+   //       max-height: 136%;
+   //       height: unset;
+   //       transform: translate(-32%, -36%);
+   //    }
+   //    &-mobile {
+   //       display: none;
+   //       transform: translateY(-36%);
+   //    }
+   // }
+   @media (max-width: 1400px) {
+      .is-2 {
+         @include clamp("font-size", 33px, 6vw, 56px);
+      }
+   }
+   // @media (max-width: 600px) {
+   //    .plain-wave-bg {
+   //       &-desktop {
+   //          display: none;
+   //       transform: translate(-36%, -40%) scaleY(1.25);
+   //       }
+   //       &-mobile {
+   //          display: initial;
+   //          transform: translateY(-34%) scaleY(0.8);
+   //          transform-origin: top cetempernter;
+   //       }
+   //    }
+   // }
+   // @media (min-width: 1921px) {
+   //    .plain-wave-bg {
+   //       &-desktop {
+   //          right: 0!important;
+   //          left: unset!important;
+   //          width: auto!important;
+   //          max-height: 136%!important;
+   //          height: 136%!important;
+   //          transform: translateY(-36%)!important;
+   //       }
+   //    }
+   // }
+}
+
+@media(max-width:600px) {
+   .home-hero {
+      margin-bottom: calc((1.35rem + 1.2vw) * 2.5);
+   }
+   .best-sellers {
+      margin-top: 70px;
+   }
+   .fast-acting {
+      margin-bottom: 70px;
+      &-content {
+         margin-top: 1rem;
+      }
+      &-img {
+         margin-top: -60px;
+      }
+   }
+}

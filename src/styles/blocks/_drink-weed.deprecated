@@ -1,0 +1,5 @@
+.drink-weed {
+   &-content {
+      padding-bottom: 100px;
+   }
+}

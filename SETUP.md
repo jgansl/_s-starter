@@ -1,0 +1,3 @@
+- remove repo
+- remove rfs - ignore
+- setup remotes

@@ -1,0 +1,375 @@
+// .drinks-featured-container {
+//    transition: 0.35s;
+//    display: grid;
+//    gap: 2.25rem;
+//    margin-bottom: 2.25rem;
+//    &:nth-child(odd) {
+//      grid-template-areas: 
+//      "a a b"
+//      "a a c";
+//    }
+//    &:nth-child(even) {
+//      grid-template-areas: 
+//      "b a a"
+//      "c a a";
+//    }
+//    @media (max-width: 992px) {
+//      gap: 1.5rem;
+//      margin-bottom: 1.5rem;
+//    }
+//    @media (max-width: 768px) {
+//      &:nth-child(odd),
+//      &:nth-child(even) {
+//        grid-template-areas: 
+//      "a a"
+//      "a a"
+//      "b c";
+//      }
+//    }
+//    @media (max-width: 520px) {
+//      gap: 1rem;
+//      margin-bottom: 1rem;
+//      &:nth-child(odd),
+//      &:nth-child(even) {
+//        grid-template-areas: 
+//      "a a"
+//      "b b"
+//      "c c";
+//      }
+//    }
+// }
+// .drinks-featured-item {
+//    cursor: pointer;
+//    transition: 0.35s;
+//    border-radius: 3.125rem;
+//    overflow: hidden;
+//    padding-bottom: 250px;
+//    position: relative;
+//    &:nth-child(3n + 1)     { grid-area: a; }
+//    &:nth-child(3n + 2) { grid-area: b; }
+//    &:nth-child(3n) { grid-area: c; }
+   
+//     //TODO  
+//     // background-color: var(--page-color);
+   
+//     .decor-img {
+//      @include fillall;
+//      @include bg;
+//      // z-index: -1;
+//      transition: 12s ease-out;
+//    }
+//    svg { //shop btn
+//      position: absolute;
+//      z-index:3; //TODO link
+//      bottom: 1rem;
+//      right: 1rem;
+//      @include clamp('width', 50px, calc(6.2439024390243905vw + 26.58536585365853px), 114px);
+//      max-width: 25%;
+//      height: auto;
+//      transition: 0.2s;
+//      // @include clamp('height', 50px, calc(6.2439024390243905vw + 26.58536585365853px), 114px);
+//      &:hover {
+//        transform: translateY(-2px) scale(1.04);
+//      }
+//    }
+//    .fillall {
+//       z-index: 2;
+//    }
+//    &:hover {
+//      filter: drop-shadow(0 7px 7px rgba(0,0,0,0.25));
+//      transform: translateY(-0.25rem);
+//      .decor-img {
+//        transform: scale(1.2) translateY(-2px);
+//        filter: brightness(120%);
+//      }
+//    }
+// }
+ 
+// .hl-two-col {
+//    grid-template-areas: " h i"!important;
+//    .drinks-featured-item {
+//       &:nth-child(2n + 1) { grid-area: h; }
+//       &:nth-child(2n) { grid-area: i; }
+//    }
+// }  
+
+// .tax-drink_family,
+// body.drinks {
+//   .cannabis-beverages{ 
+//     max-width:1535px;
+//     margin: 0 auto;
+//   }
+// }
+// body.drinks {
+//    .cb-anchor {
+//       margin-top: 80px; //TODO
+//    }
+//    .cb-title-toggle {
+//       display: none!important;
+//    }
+// }
+
+
+/******* DRINKS - NEW *************/
+// .filter-toggle {
+//   display: flex;
+//   justify-content: flex-end;
+//   button {
+//     border: none;
+//     color: var(--page-color);
+//     @include heading-common();
+//     background-color: #0000;
+//   }
+// }
+// .drink-filters {
+//   ul {
+//     padding-left: 0;
+//     list-style-type: none;
+//   }
+//   label {
+//     white-space: nowrap;
+//     @media (min-width: 769px) {
+//       margin-left: -1em;
+//     }
+//   }
+// }
+// .filters-close { 
+//   display: flex; 
+//   justify-content: space-between;
+//   @media (min-width: 769px) {
+//     display: none; 
+//   }
+//   @media (max-width: 768px) {
+//     margin-bottom: 1rem;
+//   }
+// }
+
+// .drinks-sidebar {
+//   @media (min-width: 769px) {
+//     padding-top: 1.2rem; //TODO grid parent
+//   }
+//   @media (max-width: 768px) {
+//     @include fillall;
+//     z-index: 10;
+//     background: #fff;
+//   }
+// }
+// .drinks-sidebar-content {
+//   position: relative;
+//   display: flex;
+//   gap: 3rem;
+// }
+/* fluid 5 columns */
+// .grid-sizer,
+// .drinks-item 
+// { 
+//   width: calc(33.333% - 4rem * 2 / 3); 
+//   margin-bottom: 50px;
+//   @include respond-below(md) {
+//     width: calc(50% - 0.75rem); 
+//     margin-bottom: 2rem;
+//   }
+// }
+// .gutter-sizer {
+//   width: 4rem;
+//   @include respond-below(md) {
+//     width: 1.5rem;
+//   }
+// }
+/* 2 columns */
+// .grid-item--width2 { width: 40%; }
+// .drinks-grid {
+//   display: flex;
+//   flex-wrap: wrap;
+//   // column-gap: 4rem;
+//   // row-gap: 50px;
+//   // margin-top: 135px;
+//   // margin-bottom: 300px;
+// }
+// .drinks-item {
+//   transition: 0.2s;
+//   // position: relative!important;
+//   display: flex;
+//   flex-flow: column;
+//   width: 100%;//calc(33.333% - 4rem * 2 / 3);//100%;
+//   flex: 0 0 calc(33.333% - 4rem * 2 / 3);
+//   max-width: calc(33.333% - 4rem * 2 / 3);
+//   @include respond-below(md) {
+//     flex: 0 0 calc(50% - 1.5rem / 2);
+//     max-width: calc(50% - 1.5rem / 2);
+//   }
+//   // height: 400px;
+//   aspect-ratio: 6 / 8;
+//   gap: 0.5rem;
+//   justify-content: space-between;
+//   align-items: center;
+//   text-align: center;
+//   // float: left;
+
+//   // margin-right: 4rem;
+//   // margin-bottom: 50px;
+//   &-img {
+//     margin-bottom: 1rem;
+//     img {
+//       max-width:100%;
+//       height: auto;
+//     }
+//   }
+//   &-content {
+//     transition: 0.2s;
+//     flex-grow: 1;
+//     text-align: center;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//   }
+// }
+// aside.drinks-sidebar {
+
+// }
+
+.__xtax-drink_family,
+.__xdrinks {
+  // .faqs {
+  //   margin-top: 240px;
+  // }
+  .cannabis-beverages { //TODO double
+    // margin-bottom: 240px;
+    margin-bottom: 180px; // /drinks
+
+    .block-content {
+      gap: 0;
+    }
+    aside + div {
+      // transition: 0.2s ease-out;
+    }
+    &:not(.filters-open) {
+      aside + div {
+        // flex: 1 0 100%;
+        flex-grow:1;
+      }
+    }
+    &.filters-open {
+      .block-content {
+        gap: 3rem;
+      }
+      aside + div {
+        // flex: 0 0 80%;
+      }
+    }
+    aside {
+      //toggle show/hide
+      // transform: scaleX(0);
+      opacity: 0;
+      transition: width 0.2s ease-out, opacity 0.2s ease-in;
+      transform-origin: center left;
+      &.visible {
+        // transform: scaleX(1);
+        opacity: 1;
+        // flex: 1 0 20%;
+        width: 200px;//TODO set dnymaically;
+      }
+      &:not(.visible) {
+        // flex: 1 0 0%;
+        width: 0;
+      }
+    }
+    @media (max-width: 992px) {
+      .block-content {
+        flex-direction: column;
+      }
+      aside {
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: center; //dropdowns
+        gap: calc(4% / 3);
+        
+        //toggle show/hide
+        transform: scaleX(0);
+        opacity: 0;
+        transition: 0.2s ease-out;
+        .visible {
+          transform: scaleX(1);
+          opacity: 1;
+        }
+
+        > ul {
+          margin-bottom: calc(4% / 3);
+          flex: 0 0 31.333%;
+          > li {
+            font-weight: 700;
+          }
+        }
+        ul {
+          padding-left: 0;
+          list-style-type: none;
+        }
+      }
+    }
+  }
+}
+
+.__xcb-filter-toggle {
+  border: none;
+  background: transparent;
+
+  position: relative;
+  z-index:9990;
+
+  font-family: $font-heading;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.2;//46px;
+  color: var(--page-color);
+
+  // transition: 0.2s;
+  // path {
+  //   transition: 0.2s;
+  // }
+
+  &:hover {
+    color: lighten($blue, 10%);
+    path {
+      fill: lighten($blue, 10%);
+    }
+  }
+}
+
+.__xdrink-family-nav {
+  padding: 2rem 0;
+  border-bottom: 2px solid var(--page-color);
+  margin-bottom: 2rem;
+  a {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
+
+.__xblock-content aside {
+  ul {
+    list-style-type: none;
+    padding-left: 0.85rem;
+  }
+  > ul {
+    padding-left: 0;
+  }
+  position: relative;
+  > svg {
+    // position: absolute;
+    // margin-left: calc(-50vw + 50%);
+    display: inline-block;
+    // width: 100vw;
+    pointer-events: none;
+    transform: translate(-100%, 2rem);
+  }
+}
+
+.__xcb-title-toggle {
+  margin-bottom: 2rem;
+}
+
+//TODO ?
+#mobile-menu { display: none; //tax
+}

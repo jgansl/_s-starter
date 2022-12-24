@@ -1,0 +1,34 @@
+// .drink-weed,
+.drink-description {
+   margin: 96px 0 180px;
+   .title {
+      text-transform: lowercase;
+      span {
+         max-width: 4em;
+      }
+      line-height: 0.9em;
+      margin-bottom: 70px;
+      font-size: 145px;
+      position: relative;
+      svg {
+         position: absolute;
+         left: 0;
+         top: 50%;
+         transform: translate(-50%, -50%);
+         margin-left: calc(-50vw + 50%);
+      }
+   }
+   p {
+      @media (min-width: 577px) {
+         margin: 0 auto;
+         text-align:center;
+         font-family: $font-heading;
+         font-size: 32px;
+         font-weight: 500;
+         line-height: 1.5;
+      }
+   }
+   > svg {
+      display: none;
+   }
+}

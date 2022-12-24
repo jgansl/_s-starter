@@ -1,0 +1,29 @@
+// :root {
+//   --page-color: red;
+// }
+
+.circle-lined,
+.three-waves,
+.five-dots {
+  position: absolute;
+  pointer-events: initial;
+  height: auto;
+}
+
+
+/* //TODO .drink-properties, */
+// .drink-properties,
+// .drink-attributes,
+/* .drink-description, */
+/* .faqs, */
+
+// .drink-reviews,
+.drink-slider + .drink-slider
+{
+   display: none!important;
+}
+
+//TODO for launch
+// .drink-reviews + * {
+//    padding-top: 0;
+// }

@@ -1,0 +1,90 @@
+.email-subscription {
+  // display: none;
+  .inner-wrap-x {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 188px; //to position circle/lines
+    @media (in-width: 768px) {
+      margin-bottom: calc(320px - 188px); //TODO desktop
+    }
+  }
+
+  //TODOD
+  //> svg,
+  &::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%; //50%;
+    transform: translateY(calc(-50% + 225px - 10vw));
+    margin-right: calc(-50vw + 50%);
+    z-index: -1;
+    
+    background-position: left center;
+    background-size: contain;
+    background-image: url(../../assets/svg/lined-circle.svg); //TODO circle lined
+    background-repeat: no-repeat;
+    height: max(170px, min(13.93vw, 100%));
+    max-height: 338px;
+    // width: min(10vw, 338px);
+    width: max(122px, min(10vw, 242.56px));
+  }
+  @media (max-width: 576px) {
+    // padding-bottom: 270px;//332px;
+    &:before {
+      top: unset;
+      bottom: 270px;
+      transform: translateY(100%);
+    }
+  }
+
+  h2 {
+    margin-bottom: max(1.5rem, 0.92em);
+  }
+
+  input {
+    border: none;
+    @include bdy;
+    flex-grow: 1;
+    background: transparentoca
+  }
+
+  .form-field {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #e2e2e2;
+    padding-bottom: 1.5rem;
+
+    @media(max-width: 576px) {
+      border-bottom: 0;
+      border-bottom: 0;
+      flex-direction: column;
+      .submit-wrap {
+        svg {
+          width: 57px;
+          height: 57px;
+        }
+      }
+      input[type=email] {
+        border-bottom: 2px solid #e2e2e2;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .submit-wrap {
+    input {
+      opacity: 0;
+    }
+    position: relative;
+    svg {
+      transition: 0.2s;
+    }
+    &:hover {
+      svg {
+        transform: scale(1.04) translateY(-3px);
+      }
+    }
+  }
+}

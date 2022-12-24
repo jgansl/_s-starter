@@ -1,0 +1,214 @@
+/** HOME HERO */
+.home-hero {
+  position: relative;
+  z-index: 2;
+}
+.feat-prod {
+  border-radius: $br; //20px, 35px
+  aspect-ratio: 1.9 / 1;
+
+  @include bg; //TODO mobile performance
+  background-repeat: no-repeat;
+  &-wrap {
+    max-width: 1336px;
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+  background-color: #e2e2e2;
+}
+.feat-shop-btn {
+  border-radius: 50%;
+  @include t3;
+  @include clamp(
+    font-size,
+    18px,
+    calc(1.1570247933884297vw + 13.487603305785125px),
+    32px
+  );
+  width: 4em;
+  height: 4em;
+  background-color: #fff;
+  color: $blue; //TODO default
+
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+
+  display: grid;
+  place-items: center;
+
+  span {
+    line-height: 1;
+    display: inline-block;
+  }
+}
+
+/** FAST ACTING */
+.home-hero:has(+ .fast-acting) {
+  margin-bottom: -32rem;
+}
+.fast-acting {
+  padding-top: 14rem;
+  display: flex;
+  justify-content: center;
+
+  gap: 4%;
+  &-img {
+    aspect-ratio: 1.75 / 1;
+    $size: 180px;
+    margin-top: calc(#{$size} / 2);
+    margin-bottom: -$size;
+    flex: 0 0 40%;
+    width: 40%;
+    position: relative;
+    z-index: 1;
+
+    will-change: transform;
+    transform: translateY(var(--fastActingY));
+    img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      object-fit: contain;
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+  &-content {
+    flex: 0 0 54%;
+    color: #fff;
+    margin-top: 10%;
+    margin-top: 180px;
+    margin-bottom: 180px;
+  }
+
+  .is-1 {
+    @include clamp(font-size, 45px, calc(8.217821782178218vw + 12.950495049504951px), 128px);
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  .title.is-2 {
+    @include clamp(font-size, 32px, calc(4.356435643564356vw + 15.009900990099013px), 76px);
+    margin-bottom: max(1rem, 0.5em);
+  }
+}
+
+/** DRINK WEED */
+.drink-weed {
+  .title {
+    text-align: left;
+    @include clamp(margin-bottom, 32px, calc(6.732673267326733vw + 5.74257425742573px), 100px);
+  }
+  &-content {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+  .btn-outlined { //TODO global
+    @include clamp(font-size, 18px, calc(1.3861386138613863vw + 12.594059405940595px), 32px);
+    @include clamp(margin-top, 32px, calc(6.732673267326733vw + 5.74257425742573px), 100px);
+    line-height: 1;
+    padding: 0.65em 0.9em 0.4em; //TODO varies
+  }
+
+  // > svg:nth-last-child(6) { 
+  //   top: calc((334 * -100vw / 3151) + 1px);
+  //   height: calc(334 * 100vw / 3151);
+  // }
+  > svg:nth-last-child(3) { 
+    bottom: calc((225 * -100vw / 3151) + 1px);
+    height: calc(225 * 100vw / 3151);
+  }
+  @media (min-width: 1921px) {
+    margin-top: calc(334 * 100vw /3151);
+    margin-bottom: calc(225 * 100vw /3151);
+    // margin-bottom: calc(334 * 100vw /3151);
+  }
+}
+
+body.home {
+  .drink-description { //dirnk-weed
+    .rect-lined {
+      @include clamp(top, 90px, calc(7.8431372549019605vw + 59.41176470588235px), 210px); //match content padding
+      left: 0;
+      transform: translate(-23%, -100%);
+    }
+  }
+}
+
+@media (max-width: 1600px) {
+  .home-hero:has(+ .fast-acting) {
+    margin-bottom: -30vw;
+  }
+  .fast-acting {
+    padding-top: 16vw;
+  }
+  .fast-acting-img {
+    margin-top: calc(180px / 3);
+  }
+  .fast-acting-content {
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+}
+@media (max-width: 1400px) {
+  .fats-acting .is-2 {
+    @include clamp('font-size', 33px, 6vw, 56px);
+  }
+}
+@media (max-width: 992px) {
+  .home-hero:has(+ .fast-acting) {
+    margin-bottom: -32vw;
+  }
+  .fast-acting {
+    padding-top: 16vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  body.home .faqs-chat {
+    margin-top: 180px;
+  }
+}
+@media (max-width: 768px) {
+  .fast-acting-img {
+    margin-top: calc(180px / 4);
+  }
+}
+@media (max-width: 600px) {
+  .home-hero {
+    margin-bottom: calc((1.35rem + 1.2vw) * 2.5);
+  }
+  .best-sellers {
+    margin-top: 70px;
+  }
+  .fast-acting {
+    margin-bottom: 70px;
+    &-content {
+      margin-top: 60px;
+    }
+    &-img {
+      // width: calc(8vw + 40%);
+      // flex-basis: calc(8vw + 40%);
+      margin-left: -8vw;
+      margin-top: calc(-150px + 10vw); //-16%;//-60px;
+    }
+  }
+
+}
+@media (max-width: 450px) {
+  .fast-acting .title.is-2 {
+    margin-bottom: 0.5rem;
+  } 
+  .fast-acting .title.is-1 {
+    line-height: 1.2;
+  }
+  .fast-acting-img {
+    min-height: 110px;
+    width: auto;
+    flex: unset;
+    max-width: unset;
+    margin-left: calc(-100px + 12vw);
+  }
+}

@@ -1,0 +1,39 @@
+//sal
+//<animate>
+@keyframes overIn {
+   0% {
+      transform: translateY(0.75rem);
+   }
+   50% {
+      transform: translateY(-0.1rem);
+   }
+   99% {
+      transform: translateY(0);
+   }
+   100% {
+      transform: translateY(0);
+   }
+}
+
+// *:not(.show)
+// .drinks-featured-item,
+.single-location-default-content > *,
+// *[class*=-content] > *,
+body.about .main-content-wrap *[class*=-content] > *:not(svg),
+body.home .page-default-content > *:not(.hero):not(.fast-acting)
+{
+   transition-property: opacity, transform;  //affecting font resizing speed on single-location
+   transition-duration: 0.65s, 2s; 
+   // transition-delay: 2s;//, 2s; 
+   transition-timing-function: ease-out, ease-out; 
+   &:not(.show)  {
+      opacity: 0;  
+      // transform: translateY(0.75rem);
+      // animation: overIn 1s reverse;
+   }
+   &.show {
+      opacity: 1;  
+      // transform: translateY(0.75rem); //animate
+      animation: overIn 0.65s forwards;
+   }
+}

@@ -4,3 +4,14 @@ package-lock.json
 composer.lock
 style.css.map
 .DS_Store
+
+
+# LOCK FILES 
+.DS_Store
+.env.local
+build
+pnpm-lock.yaml
+scripts/env
+env/
+
+__integrate/
