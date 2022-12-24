@@ -9,8 +9,8 @@
     "Theme"
   ],
   "engines": {
-    "node": "^16.16",
-    "npm": "^6.14"
+    "node": "*",
+    "npm": "*"
   },
   "repository": {
     "type": "git",
@@ -69,10 +69,14 @@
     "map": false
   },
   "scripts": {
+    "build": "run-p rollup-build sass-build",
     "dev": "rollup -c -w",
     "lh": "lhci autorun",
     "package": "run-s build zip",
-    "postinstall": "chmod +x scripts/ssl.sh && scripts/ssl.sh && npm run build && if [ ! -f \".env.local\" ]; then cp .example.env.local .env.local; fi;",
+    "xpostinstall": "chmod +x scripts/ssl.sh && scripts/ssl.sh && npm run build && if [ ! -f \".env.local\" ]; then cp .example.env.local .env.local; fi;",
+    "postinstall": "chmod +x scripts/ssl.sh && scripts/ssl.sh && npm run build",
+    "rollup-build": "rollup -c",
+    "sass-build": "sass --style compressed styles/theme.scss:public/css/bundle.css",
     "start": "run-p dev sass-watch",
     "watch": "sass --watch styles/theme.scss:public/css/bundle.css styles/editor.scss:public/css/editor.css",
     "zip": "mkdir -p packaged && zip -rq packaged/theme_$(date '+%Y-%m-%d-%H-%M').zip ./* -x *.git* -x node_modules/\\* -x scripts/\\* -x debug.txt -x packaged/\\* && open packaged",

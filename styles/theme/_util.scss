@@ -1,0 +1,57 @@
+@mixin respond-above($breakpoint) {
+   // If the breakpoint exists in the map.
+   @if map-has-key($grid-breakpoints, $breakpoint) {
+     // Get the breakpoint value.
+     $breakpoint-value: map-get($grid-breakpoints, $breakpoint);
+     // Write the media query.
+     @media (min-width: ($breakpoint-value)) {
+       @content;
+     }
+     // If the breakpoint doesn't exist in the map.
+   } @else {
+     // Log a warning.
+     @warn 'Invalid breakpoint: #{$breakpoint}.';
+   }
+ }
+ @mixin respond-below($breakpoint) {
+   // If the breakpoint exists in the map.
+   @if map-has-key($grid-breakpoints, $breakpoint) {
+     // Get the breakpoint value.
+     $breakpoint-value: map-get($grid-breakpoints, $breakpoint);
+     // Write the media query.
+     @media (max-width: ($breakpoint-value - 1)) {
+       @content;
+     }
+     // If the breakpoint doesn't exist in the map.
+   } @else {
+     // Log a warning.
+     @warn 'Invalid breakpoint: #{$breakpoint}.';
+   }
+ }
+ @mixin clamp(
+   $property,
+   $min-size,
+   $scaler,
+   $max-size,
+   $min-size-left: false,
+   $scaler-left: false,
+   $max-size-left: false
+ ) {
+   @if $min-size-left == false {
+     #{$property}: $max-size;
+     #{$property}: #{'min(max(#{$min-size}, #{$scaler}), #{$max-size})'};
+     #{$property}: clamp($min-size, $scaler, $max-size);
+   } @else if $min-size-left == 0 or $min-size-left == auto {
+     #{$property}: $max-size $min-size-left;
+     #{$property}: #{'min(max(#{$min-size}, #{$scaler}), #{$max-size})'}
+       $min-size-left;
+     #{$property}: clamp($min-size, $scaler, $max-size) $min-size-left;
+   } @else {
+     #{$property}: $max-size $min-size-left;
+     #{$property}: #{'min(max(#{$min-size}, #{$scaler}), #{$max-size})'}
+       #{'min(max(#{$min-size-left}, #{$scaler-left}), #{$max-size-left})'};
+     #{$property}: clamp($min-size, $scaler, $max-size)
+       clamp($min-size-left, $scaler-left, $max-size-left);
+   }
+ }
+ 

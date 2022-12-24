@@ -1,0 +1,57 @@
+.d-flex {
+  display: flex;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+
+//@see https://getbootstrap.com/docs/5.0/customize/sass/
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import '../../node_modules/bootstrap-scss/functions';
+
+// 2. Include any default variable overrides here
+$grid-breakpoints: (
+  xs: 391px,
+  sm: 577px,
+  md: 769px,
+  lg: 993px,
+  xl: 1100px,
+  //TODO subs-text-cards-grid
+  2xl: 1300px,
+  3xl: 1500px,
+);
+
+// Default variable overrides
+$body-bg: #000;
+$body-color: #111;
+$primary: #0074d9;
+$danger: #ff4136;
+$grid-breakpoints: ();
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import '../../node_modules/bootstrap-scss/variables';
+@import '../../node_modules/bootstrap-scss/mixins';
+
+// $custom-theme-colors: map-merge(
+//   $theme-colors,
+//   (
+//     'tertiary': $tertiary,
+//   )
+// );
+
+// $theme-colors: map-merge($theme-colors, $custom-theme-colors);
+// $theme-colors-rgb: map-loop($theme-colors, to-rgb, '$value');
+@import '../../node_modules/bootstrap-scss/maps';
+
+// 4. Include any optional Bootstrap components as you like
+@import '../../node_modules/bootstrap-scss/root';
+@import '../../node_modules/bootstrap-scss/reboot';
+@import '../../node_modules/bootstrap-scss/type';
+@import '../../node_modules/bootstrap-scss/images';
+@import '../../node_modules/bootstrap-scss/containers';
+@import '../../node_modules/bootstrap-scss/grid';
+//TODO minimize, tree-shaking
+//TODO interchagne will tailwind

@@ -1,5 +1,5 @@
 <?php /** Default Page Template */
-add_theme_support( 'wp-block-styles' );
+//add_theme_support( 'wp-block-styles' );
 $fields = get_fields();
 get_header();
 ?>
@@ -10,8 +10,7 @@ get_header();
          <div class="page-default-content">
 
 <?php the_content(); ?>
-
-<?php print_r(get_the_content()); ?>
+<?php //print_r(get_the_content()); ?>
 
          </div>
       </div>

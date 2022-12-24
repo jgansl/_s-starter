@@ -6,10 +6,10 @@
   <div class="inner-wrap">
     <nav class="navbar">
       <a href="<?php echo get_site_url() ?>" class="logo-link">
-      <span class="sr-only">go to home page - hi5 cannabis beverages</span>
+      <span class="sr-only">home</span>
       <!-- TODO height/ width --> 
         <!-- <img src="<?php //echo $option_fields['logo']['sizes']['medium']; ?>" alt="<?php echo get_bloginfo() ?> Logo" width="<?php echo $option_fields['logo']['sizes']['medium-width']; ?>" height="<?php //echo $option_fields['logo']['sizes']['medium-height']; ?>"> -->
-        <?php include( locate_template('assets/svg/logo.svg', false, false, $args=[]));?>
+        <?php //include( locate_template('assets/svg/logo.svg', false, false, $args=[]));?>
       </a>
       <button id="toggle_nav" class="toggle-nav">
         <div class="hamburger">

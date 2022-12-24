@@ -19,10 +19,12 @@
 
 	<?php wp_head(); ?>
 </head>
-
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-<div id="page" class="site">
+<?php
+$add_classes = []; 
+?>
+<body <?php body_class($add_classes); ?>>
+<?php //wp_body_open(); ?>
+<!-- <div id="page" class="site"> -->
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
 
 	<header id="masthead" class="site-header">
@@ -57,3 +59,5 @@
 			?>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
+
+	<?php include( locate_template('template-parts/navbar.php', false, false, $args=[]));?>

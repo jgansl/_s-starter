@@ -39,3 +39,12 @@ function social_share($soc_name)
 
 	echo $share_options[$soc_name];
 }
+
+function no_fields($comp_name) {
+   $msg = "$post->post_title - $comp_name - no field data";
+   if(IS_LOCAL) {
+      echo '<script>console.log('.json_encode($msg, JSON_PRETTY_PRINT).');</script>';//debug
+   } else {
+      error_log(json_encode( $msg , JSON_PRETTY_PRINT));//debug
+   }
+}

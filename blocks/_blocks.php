@@ -26,7 +26,7 @@ function theme_register_blocks()
 		acf_register_block([ //TODO
 			'name'			=> $label,
 			'title'			=> implode(' ', array_map(function($w) {return ucfirst($w);}, explode('-', $label))),
-			'render_template'	=> "blocks/$label.php",
+			'render_template'	=> "./$label.php",
 			'category'		=> 'theme-blocks',
 			'icon'			=> 'button',
 			'mode'			=> 'edit',

@@ -61,4 +61,6 @@ final class AutoSetup { //TODO memo persistence
 	public function gen_sample() { //typograhphy, fonts, colors
 		//add content to home page
 	}
+
+   public function sync_menus() {}
 }

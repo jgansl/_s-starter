@@ -1,7 +1,6 @@
 import lozad from 'lozad'
-import Accordion from './accordion'
-import { runPageBlocks } from './blocks'
-import DrinkFamily from '../components/DrinkFamily.svelte'
+// import Accordion from './accordion'
+import { runPageBlocks } from './functions'
 
 const { $ } = window
 const $body = $(document.body)
@@ -22,18 +21,6 @@ export default {
     window.onload = window.onresize
 
     runPageBlocks()
-    drivingDistance()
-
-    if($body.hasClass('tax-drink_family')) {
-      console.log('svelte')
-      let $anchor = $('#svelte-anchor')
-      if($anchor.length) {
-        new DrinkFamily({
-          target: $anchor[0],
-          props: $anchor.data(),
-        })
-      }
-    }
   },
   finalize() {
     // JavaScript to be fired on all pages, after page specific JS is fired
@@ -48,9 +35,9 @@ export default {
     mobileMenu()
 
     // FAQs();
-    $('details').each((idx, el) => {
-      new Accordion(el)
-    })
+    // $('details').each((idx, el) => {
+    //   new Accordion(el)
+    // })
   },
 }
 
@@ -77,33 +64,4 @@ function mobileMenu() {
   var x = window.matchMedia('(min-width: 1025px)') //match
   closeOnDesktop(x)
   x.addListener(closeOnDesktop)
-}
-
-function drivingDistance() {
-  const {TravelMode, DirectionsService, DirectionsStatus, LatLng} = google.maps;
-  const directionsService = new DirectionsService;
-  let a = new google.maps.LatLng(-34, 151);
-  let b = new google.maps.LatLng(-34, 121);
-  let addresses = [
-    a, b
-  ]
-  const origin = addresses.shift();
-  const destination = addresses.pop();
-  const waypoints = addresses.map(stop => ({location: stop}));
-
-  // directionsService.route({
-  //   origin,
-  //   waypoints,
-  //   destination,
-  //   travelMode: TravelMode.DRIVING,
-  // }, (response, status) => {
-  //     if(status === DirectionsStatus.OK) {
-  //         let distances = _.flatMap(response.routes, route => _.flatMap(route.legs, leg => leg.distance.value));
-
-  //         return resolve(_.sum(distances));
-  //     } else {
-  //         return reject(new Error(status));
-  //     }
-  // });
-
 }

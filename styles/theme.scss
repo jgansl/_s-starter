@@ -1,0 +1,37 @@
+@import './_common';
+@import 'theme/_io';
+
+html {
+  background-color: var(--page-color);
+}
+
+.creator-link {
+  $cl-color: #fff; //lighten($color-primary, 5%);
+  color: $cl-color;
+  text-align: center;
+  font-size: 8px;
+  margin: 100px 0 8px;
+  a {
+    color: $cl-color;
+    text-decoration: none;
+    &:hover {
+      color: $cl-color;
+    }
+  }
+}
+
+/** if wpadminbar is fixed */
+// .logged-in {
+//    .navbar-wrap {
+//       margin-top: 32px !important;
+//       @media screen and (max-width: 782px) {
+//          margin-top: 46px !important;
+//       }
+//    }
+//    #mobile-menu {
+//       margin-top: 32px !important;
+//       @media screen and (max-width: 782px) {
+//          margin-top: 46px !important;
+//       }
+//    }
+// }
