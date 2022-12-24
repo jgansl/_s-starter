@@ -10,7 +10,7 @@ get_header();
          <div class="page-default-content">
 
 <?php the_content(); ?>
-<?php //print_r(get_the_content()); ?>
+<?php print_r(get_the_content()); ?>
 
          </div>
       </div>

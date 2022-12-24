@@ -19,6 +19,9 @@ function theme_scripts() {
 	// 	wp_enqueue_script( 'jquery', 'https://cdn.jsdelivr.net/npm/cash-dom@8.1.1/dist/cash.min.js', array(), null, true );
 	// wp_enqueue_script('passive', $theme_uri . "/www/js/passive.js", ['jquery'], $theme->version, true);
 
+	//font //TODO
+	wp_enqueue_style('font-ibm-plex', 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap', false, $theme->version);
+	
 	// wp_enqueue_style('slick-styles', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', false, $theme->version);
 	// wp_enqueue_style('slick-theme', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css', false, $theme->version);
 	// wp_enqueue_script('slick', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', ['jquery'], $theme->version, true);

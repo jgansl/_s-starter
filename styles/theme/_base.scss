@@ -12,6 +12,8 @@
 } //TODO dark
 
 /** extract from design file **/
+$font-heading: 'IBM Plex Sans', sans-serif;
+$font-body: sans-serif;
 $color-primary: #420fe7;
 $color-accent: #420fe7;
 $font-color: #000;
@@ -24,6 +26,7 @@ $box-shadow: 0 0 40px rgb(0, 0, 0, 0.2);
 // ); @each
 
 @mixin heading-common($fw: 700) {
+  font-family: $font-heading;
   font-weight: $fw;
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -40,7 +43,18 @@ h6,
 }
 
 @mixin hdl1() {
+  font-size: 96px;
 }
+.title.is-1,
+.is-style-title-is-1 {
+  @include hdl1;
+}
+// .title.is-2, .is-style-title-is-2 { @include hdl2; }
+// .title.is-3, .is-style-title-is-3 { @include hdl3; }
+// .title.is-4, .is-style-title-is-4 { @include hdl4; }
+// .title.is-5, .is-style-title-is-5 { @include hdl5; }
+// .title.is-6, .is-style-title-is-6 { @include hdl6; }
+
 @mixin bdy() {
   font-size: 1rem;
   line-height: 1.5;
@@ -59,7 +73,6 @@ h6,
 //       background-color: $color;
 //    }
 // }
-
 .main-content-wrap {
   position: relative;
   flex-grow: 1;
@@ -91,6 +104,26 @@ h6,
   margin-left: calc(-50vw + 50%);
   max-width: 100vw;
 }
+*:has(> .cover) {
+  position: relative;
+  z-index: 1;
+}
+.decor-img,
+.cover > picture,
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  max-width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
 .site-footer {
 }
 .site-header {
@@ -113,8 +146,46 @@ body,
 }
 
 .page-hero {
+  padding-top: calc(2rem + var(--navbar-height));
+  padding-bottom: 2rem;
   &-img {
   }
   &-content {
   }
 }
+.cover > picture {
+}
+
+////////////////////////// ACCESSIBILITY //////////////////////////
+.sr-only,
+.screen-reader-text {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.sr-only:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; // Above WP toolbar.
+}
+////////////////////////// END ACCESSIBILITY //////////////////////////

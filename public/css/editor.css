@@ -602,24 +602,16 @@ body,
   z-index: 100000;
 }
 
-html {
-  background-color: var(--page-color);
+.title.is-1 {
+  font-size: 60px;
 }
 
-.creator-link {
-  color: #fff;
-  text-align: center;
-  font-size: 8px;
-  margin: 100px 0 8px;
-}
-.creator-link a {
-  color: #fff;
-  text-decoration: none;
-}
-.creator-link a:hover {
-  color: #fff;
+.decor-img,
+.cover > picture,
+.cover {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-/** if wpadminbar is fixed */
-
-/*# sourceMappingURL=bundle.css.map */
+/*# sourceMappingURL=editor.css.map */

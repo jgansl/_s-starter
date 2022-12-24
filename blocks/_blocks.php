@@ -23,10 +23,11 @@ function theme_register_blocks()
 	foreach([
 		'page-hero',
 	] as $label) {
+		error_log(json_encode($label, JSON_PRETTY_PRINT));//debug
 		acf_register_block([ //TODO
 			'name'			=> $label,
 			'title'			=> implode(' ', array_map(function($w) {return ucfirst($w);}, explode('-', $label))),
-			'render_template'	=> "./$label.php",
+			'render_template'	=> "blocks/$label.php",
 			'category'		=> 'theme-blocks',
 			'icon'			=> 'button',
 			'mode'			=> 'edit',

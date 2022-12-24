@@ -1,0 +1,13 @@
+@import '_common';
+
+.title.is-1 {
+  font-size: 60px;
+}
+
+.decor-img,
+.cover > picture,
+.cover {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}

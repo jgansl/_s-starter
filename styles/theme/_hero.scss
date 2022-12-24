@@ -1,0 +1,11 @@
+.page-hero {
+  position: relative;
+  &-img {
+    @include fillall;
+    @include section-full;
+    width: 100vw;
+  }
+  h1 {
+    @include hdl1;
+  }
+}

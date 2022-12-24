@@ -1,193 +1,734 @@
-[24-Dec-2022 02:14:44 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "", expecting "]" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/__dev/autosetup.php on line 40
-[24-Dec-2022 02:14:46 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "", expecting "]" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/__dev/autosetup.php on line 40
-[24-Dec-2022 02:14:46 UTC] PHP Parse error:  syntax error, unexpected double-quoted string "", expecting "]" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/__dev/autosetup.php on line 40
-[24-Dec-2022 04:42:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:42:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:42:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:42:17 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php:12
+[24-Dec-2022 04:55:22 UTC] "page-hero"
+[24-Dec-2022 04:55:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:55:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:55:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:55:23 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:55:23 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:55:23 UTC] "page-hero"
+[24-Dec-2022 04:55:45 UTC] "page-hero"
+[24-Dec-2022 04:55:51 UTC] "page-hero"
+[24-Dec-2022 04:55:57 UTC] "page-hero"
+[24-Dec-2022 04:55:57 UTC] "page-hero"
+[24-Dec-2022 04:56:33 UTC] "page-hero"
+[24-Dec-2022 04:56:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:56:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:56:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:56:33 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:56:33 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:56:33 UTC] "page"
+[24-Dec-2022 04:56:33 UTC] "page"
+[24-Dec-2022 04:56:33 UTC] "page-hero"
+[24-Dec-2022 04:56:45 UTC] "page-hero"
+[24-Dec-2022 04:56:52 UTC] "page-hero"
+[24-Dec-2022 04:56:52 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:56:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:56:52 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:56:52 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:56:52 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:56:52 UTC] "page-hero"
+[24-Dec-2022 04:56:58 UTC] "page-hero"
+[24-Dec-2022 04:56:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:56:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:56:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:56:58 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:56:58 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:56:58 UTC] "page-hero"
+[24-Dec-2022 04:57:29 UTC] "page-hero"
+[24-Dec-2022 04:57:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:57:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:57:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:57:29 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:57:29 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:57:29 UTC] "page-hero"
+[24-Dec-2022 04:58:01 UTC] "page-hero"
+[24-Dec-2022 04:58:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:01 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:58:01 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:58:01 UTC] "pagesdfds"
+[24-Dec-2022 04:58:01 UTC] PHP Warning:  Undefined variable $post in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 8
+[24-Dec-2022 04:58:01 UTC] PHP Warning:  Attempt to read property "post_title" on null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 8
+[24-Dec-2022 04:58:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function part() in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php:11
 Stack trace:
-#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/header.php(63): include()
-#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template.php(783): require_once('/Users/jessegan...')
-#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template.php(718): load_template('/Users/jessegan...', true, Array)
-#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/page.php(4): get_header()
-#5 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template-loader.php(106): include('/Users/jessegan...')
-#6 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-blog-header.php(19): require_once('/Users/jessegan...')
-#7 /Users/jessegansler/Local Sites/adevbuild/app/public/index.php(17): require('/Users/jessegan...')
-#8 {main}
-  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 12
-[24-Dec-2022 04:42:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:42:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:42:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:42:17 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php:12
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(438): include()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(367): acf_render_block(Array, '', false, 10, Object(WP_Block), Array)
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(328): acf_rendered_block(Array, '', false, 10, Object(WP_Block))
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-block.php(256): acf_render_block_callback(Array, '', Object(WP_Block))
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1051): WP_Block->render()
+#5 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1089): render_block(Array)
+#6 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-hook.php(308): do_blocks('<!-- wp:acf/pag...')
+#7 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:acf/pag...', Array)
+#8 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:acf/pag...')
+#9 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/page.php(12): the_content()
+#10 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template-loader.php(106): include('/Users/jessegan...')
+#11 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-blog-header.php(19): require_once('/Users/jessegan...')
+#12 /Users/jessegansler/Local Sites/adevbuild/app/public/index.php(17): require('/Users/jessegan...')
+#13 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 11
+[24-Dec-2022 04:58:01 UTC] "page-hero"
+[24-Dec-2022 04:58:28 UTC] "page-hero"
+[24-Dec-2022 04:58:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:28 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:58:28 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:58:28 UTC] "pagesdfds"
+[24-Dec-2022 04:58:28 UTC] PHP Warning:  Undefined variable $post in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 8
+[24-Dec-2022 04:58:28 UTC] PHP Warning:  Attempt to read property "post_title" on null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 8
+[24-Dec-2022 04:58:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function part() in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php:11
 Stack trace:
-#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/header.php(63): include()
-#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template.php(783): require_once('/Users/jessegan...')
-#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template.php(718): load_template('/Users/jessegan...', true, Array)
-#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/404.php(10): get_header()
-#5 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template-loader.php(106): include('/Users/jessegan...')
-#6 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-blog-header.php(19): require_once('/Users/jessegan...')
-#7 /Users/jessegansler/Local Sites/adevbuild/app/public/index.php(17): require('/Users/jessegan...')
-#8 {main}
-  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 12
-[24-Dec-2022 04:42:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:42:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:42:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:42:37 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php:12
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(438): include()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(367): acf_render_block(Array, '', false, 10, Object(WP_Block), Array)
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(328): acf_rendered_block(Array, '', false, 10, Object(WP_Block))
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-block.php(256): acf_render_block_callback(Array, '', Object(WP_Block))
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1051): WP_Block->render()
+#5 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1089): render_block(Array)
+#6 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-hook.php(308): do_blocks('<!-- wp:acf/pag...')
+#7 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:acf/pag...', Array)
+#8 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:acf/pag...')
+#9 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/page.php(12): the_content()
+#10 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template-loader.php(106): include('/Users/jessegan...')
+#11 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-blog-header.php(19): require_once('/Users/jessegan...')
+#12 /Users/jessegansler/Local Sites/adevbuild/app/public/index.php(17): require('/Users/jessegan...')
+#13 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 11
+[24-Dec-2022 04:58:28 UTC] "page-hero"
+[24-Dec-2022 04:58:29 UTC] "page-hero"
+[24-Dec-2022 04:58:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:29 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:58:29 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:58:29 UTC] "pagesdfds"
+[24-Dec-2022 04:58:29 UTC] PHP Warning:  Undefined variable $post in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 8
+[24-Dec-2022 04:58:29 UTC] PHP Warning:  Attempt to read property "post_title" on null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 8
+[24-Dec-2022 04:58:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function part() in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php:11
 Stack trace:
-#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/header.php(63): include()
-#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template.php(783): require_once('/Users/jessegan...')
-#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template.php(718): load_template('/Users/jessegan...', true, Array)
-#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/page.php(4): get_header()
-#5 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template-loader.php(106): include('/Users/jessegan...')
-#6 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-blog-header.php(19): require_once('/Users/jessegan...')
-#7 /Users/jessegansler/Local Sites/adevbuild/app/public/index.php(17): require('/Users/jessegan...')
-#8 {main}
-  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 12
-[24-Dec-2022 04:42:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:42:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:42:37 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:42:37 UTC] PHP Fatal error:  Uncaught ValueError: Path cannot be empty in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php:12
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(438): include()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(367): acf_render_block(Array, '', false, 10, Object(WP_Block), Array)
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(328): acf_rendered_block(Array, '', false, 10, Object(WP_Block))
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-block.php(256): acf_render_block_callback(Array, '', Object(WP_Block))
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1051): WP_Block->render()
+#5 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1089): render_block(Array)
+#6 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-hook.php(308): do_blocks('<!-- wp:acf/pag...')
+#7 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:acf/pag...', Array)
+#8 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:acf/pag...')
+#9 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/page.php(12): the_content()
+#10 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template-loader.php(106): include('/Users/jessegan...')
+#11 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-blog-header.php(19): require_once('/Users/jessegan...')
+#12 /Users/jessegansler/Local Sites/adevbuild/app/public/index.php(17): require('/Users/jessegan...')
+#13 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 11
+[24-Dec-2022 04:58:29 UTC] "page-hero"
+[24-Dec-2022 04:58:29 UTC] "page-hero"
+[24-Dec-2022 04:58:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:29 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:58:29 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:58:29 UTC] "pagesdfds"
+[24-Dec-2022 04:58:29 UTC] PHP Warning:  Undefined variable $post in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 8
+[24-Dec-2022 04:58:29 UTC] PHP Warning:  Attempt to read property "post_title" on null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 8
+[24-Dec-2022 04:58:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function part() in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php:11
 Stack trace:
-#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/header.php(63): include()
-#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template.php(783): require_once('/Users/jessegan...')
-#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template.php(718): load_template('/Users/jessegan...', true, Array)
-#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
-#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/404.php(10): get_header()
-#5 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template-loader.php(106): include('/Users/jessegan...')
-#6 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-blog-header.php(19): require_once('/Users/jessegan...')
-#7 /Users/jessegansler/Local Sites/adevbuild/app/public/index.php(17): require('/Users/jessegan...')
-#8 {main}
-  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 12
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:43:17 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:44:32 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:45:11 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:11 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:11 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:45:11 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:45:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:12 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:45:12 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:45:12 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:45:12 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:45:44 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:46:04 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:46:09 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:47:29 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:47:42 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:49:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:49:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:49:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:49:30 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:49:30 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:49:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:49:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:49:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
-[24-Dec-2022 04:49:30 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
-[24-Dec-2022 04:49:30 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(438): include()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(367): acf_render_block(Array, '', false, 10, Object(WP_Block), Array)
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(328): acf_rendered_block(Array, '', false, 10, Object(WP_Block))
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-block.php(256): acf_render_block_callback(Array, '', Object(WP_Block))
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1051): WP_Block->render()
+#5 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1089): render_block(Array)
+#6 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-hook.php(308): do_blocks('<!-- wp:acf/pag...')
+#7 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:acf/pag...', Array)
+#8 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:acf/pag...')
+#9 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/page.php(12): the_content()
+#10 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template-loader.php(106): include('/Users/jessegan...')
+#11 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-blog-header.php(19): require_once('/Users/jessegan...')
+#12 /Users/jessegansler/Local Sites/adevbuild/app/public/index.php(17): require('/Users/jessegan...')
+#13 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 11
+[24-Dec-2022 04:58:30 UTC] "page-hero"
+[24-Dec-2022 04:58:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:30 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:58:30 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:58:30 UTC] "pagesdfds"
+[24-Dec-2022 04:58:30 UTC] PHP Warning:  Undefined variable $post in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 8
+[24-Dec-2022 04:58:30 UTC] PHP Warning:  Attempt to read property "post_title" on null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 8
+[24-Dec-2022 04:58:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function part() in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php:11
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(438): include()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(367): acf_render_block(Array, '', false, 10, Object(WP_Block), Array)
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(328): acf_rendered_block(Array, '', false, 10, Object(WP_Block))
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-block.php(256): acf_render_block_callback(Array, '', Object(WP_Block))
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1051): WP_Block->render()
+#5 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1089): render_block(Array)
+#6 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-hook.php(308): do_blocks('<!-- wp:acf/pag...')
+#7 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:acf/pag...', Array)
+#8 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:acf/pag...')
+#9 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/page.php(12): the_content()
+#10 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template-loader.php(106): include('/Users/jessegan...')
+#11 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-blog-header.php(19): require_once('/Users/jessegan...')
+#12 /Users/jessegansler/Local Sites/adevbuild/app/public/index.php(17): require('/Users/jessegan...')
+#13 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 11
+[24-Dec-2022 04:58:30 UTC] "page-hero"
+[24-Dec-2022 04:58:30 UTC] "page-hero"
+[24-Dec-2022 04:58:30 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:30 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:30 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:58:30 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:58:30 UTC] "pagesdfds"
+[24-Dec-2022 04:58:30 UTC] PHP Warning:  Undefined variable $post in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 8
+[24-Dec-2022 04:58:30 UTC] PHP Warning:  Attempt to read property "post_title" on null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 8
+[24-Dec-2022 04:58:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function part() in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php:11
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(438): include()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(367): acf_render_block(Array, '', false, 10, Object(WP_Block), Array)
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(328): acf_rendered_block(Array, '', false, 10, Object(WP_Block))
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-block.php(256): acf_render_block_callback(Array, '', Object(WP_Block))
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1051): WP_Block->render()
+#5 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1089): render_block(Array)
+#6 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-hook.php(308): do_blocks('<!-- wp:acf/pag...')
+#7 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:acf/pag...', Array)
+#8 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:acf/pag...')
+#9 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/page.php(12): the_content()
+#10 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template-loader.php(106): include('/Users/jessegan...')
+#11 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-blog-header.php(19): require_once('/Users/jessegan...')
+#12 /Users/jessegansler/Local Sites/adevbuild/app/public/index.php(17): require('/Users/jessegan...')
+#13 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 11
+[24-Dec-2022 04:58:46 UTC] "page-hero"
+[24-Dec-2022 04:58:51 UTC] "page-hero"
+[24-Dec-2022 04:58:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:51 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 04:58:51 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:58:51 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 04:58:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function part() in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php:10
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(438): include()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(367): acf_render_block(Array, '', false, 10, Object(WP_Block), Array)
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(328): acf_rendered_block(Array, '', false, 10, Object(WP_Block))
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-block.php(256): acf_render_block_callback(Array, '', Object(WP_Block))
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1051): WP_Block->render()
+#5 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1089): render_block(Array)
+#6 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-hook.php(308): do_blocks('<!-- wp:acf/pag...')
+#7 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:acf/pag...', Array)
+#8 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:acf/pag...')
+#9 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/page.php(12): the_content()
+#10 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template-loader.php(106): include('/Users/jessegan...')
+#11 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-blog-header.php(19): require_once('/Users/jessegan...')
+#12 /Users/jessegansler/Local Sites/adevbuild/app/public/index.php(17): require('/Users/jessegan...')
+#13 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 10
+[24-Dec-2022 04:58:51 UTC] "page-hero"
+[24-Dec-2022 05:00:23 UTC] "page-hero"
+[24-Dec-2022 05:00:23 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:00:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:00:23 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:00:23 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:00:23 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:00:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function part() in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php:10
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(438): include()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(367): acf_render_block(Array, '', false, 10, Object(WP_Block), Array)
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(328): acf_rendered_block(Array, '', false, 10, Object(WP_Block))
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-block.php(256): acf_render_block_callback(Array, '', Object(WP_Block))
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1051): WP_Block->render()
+#5 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1089): render_block(Array)
+#6 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-hook.php(308): do_blocks('<!-- wp:acf/pag...')
+#7 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:acf/pag...', Array)
+#8 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:acf/pag...')
+#9 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/page.php(12): the_content()
+#10 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template-loader.php(106): include('/Users/jessegan...')
+#11 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-blog-header.php(19): require_once('/Users/jessegan...')
+#12 /Users/jessegansler/Local Sites/adevbuild/app/public/index.php(17): require('/Users/jessegan...')
+#13 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 10
+[24-Dec-2022 05:00:23 UTC] "page-hero"
+[24-Dec-2022 05:00:28 UTC] "page-hero"
+[24-Dec-2022 05:00:28 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:00:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:00:28 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:00:28 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:00:28 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:00:28 UTC] PHP Warning:  Undefined array key "url" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/btn.php on line 10
+[24-Dec-2022 05:00:28 UTC] PHP Warning:  Undefined array key "title" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/btn.php on line 12
+[24-Dec-2022 05:00:28 UTC] PHP Warning:  Undefined array key "url" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/btn.php on line 10
+[24-Dec-2022 05:00:28 UTC] PHP Warning:  Undefined array key "title" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/btn.php on line 12
+[24-Dec-2022 05:00:28 UTC] "page-hero"
+[24-Dec-2022 05:00:47 UTC] "page-hero"
+[24-Dec-2022 05:02:13 UTC] "page-hero"
+[24-Dec-2022 05:02:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:02:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:02:13 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:02:13 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:02:13 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:02:13 UTC] PHP Fatal error:  Uncaught TypeError: Illegal offset type in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php:13
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(438): include()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(367): acf_render_block(Array, '', false, 10, Object(WP_Block), Array)
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/plugins/advanced-custom-fields-pro/pro/blocks.php(328): acf_rendered_block(Array, '', false, 10, Object(WP_Block))
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-block.php(256): acf_render_block_callback(Array, '', Object(WP_Block))
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1051): WP_Block->render()
+#5 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/blocks.php(1089): render_block(Array)
+#6 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/class-wp-hook.php(308): do_blocks('<!-- wp:acf/pag...')
+#7 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/plugin.php(205): WP_Hook->apply_filters('<!-- wp:acf/pag...', Array)
+#8 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/post-template.php(255): apply_filters('the_content', '<!-- wp:acf/pag...')
+#9 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/page.php(12): the_content()
+#10 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-includes/template-loader.php(106): include('/Users/jessegan...')
+#11 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-blog-header.php(19): require_once('/Users/jessegan...')
+#12 /Users/jessegansler/Local Sites/adevbuild/app/public/index.php(17): require('/Users/jessegan...')
+#13 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/blocks/page-hero.php on line 13
+[24-Dec-2022 05:02:13 UTC] "page-hero"
+[24-Dec-2022 05:02:26 UTC] "page-hero"
+[24-Dec-2022 05:02:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:02:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:02:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:02:26 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:02:26 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:02:26 UTC] PHP Warning:  Undefined array key "url" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/btn.php on line 10
+[24-Dec-2022 05:02:26 UTC] PHP Warning:  Undefined array key "title" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/btn.php on line 12
+[24-Dec-2022 05:02:26 UTC] PHP Warning:  Undefined array key "url" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/btn.php on line 10
+[24-Dec-2022 05:02:26 UTC] PHP Warning:  Undefined array key "title" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/btn.php on line 12
+[24-Dec-2022 05:02:27 UTC] "page-hero"
+[24-Dec-2022 05:02:48 UTC] "page-hero"
+[24-Dec-2022 05:03:20 UTC] "page-hero"
+[24-Dec-2022 05:03:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:03:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:03:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:03:20 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:03:20 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:03:20 UTC] "page-hero"
+[24-Dec-2022 05:04:21 UTC] "page-hero"
+[24-Dec-2022 05:04:23 UTC] "page-hero"
+[24-Dec-2022 05:04:29 UTC] "page-hero"
+[24-Dec-2022 05:04:29 UTC] "page-hero"
+[24-Dec-2022 05:05:21 UTC] "page-hero"
+[24-Dec-2022 05:06:22 UTC] "page-hero"
+[24-Dec-2022 05:07:24 UTC] "page-hero"
+[24-Dec-2022 05:07:25 UTC] "page-hero"
+[24-Dec-2022 05:07:25 UTC] "page-hero"
+[24-Dec-2022 05:07:26 UTC] "page-hero"
+[24-Dec-2022 05:07:26 UTC] "page-hero"
+[24-Dec-2022 05:07:26 UTC] "page-hero"
+[24-Dec-2022 05:07:26 UTC] "page-hero"
+[24-Dec-2022 05:07:26 UTC] "page-hero"
+[24-Dec-2022 05:07:26 UTC] "page-hero"
+[24-Dec-2022 05:07:26 UTC] "page-hero"
+[24-Dec-2022 05:07:27 UTC] "page-hero"
+[24-Dec-2022 05:07:27 UTC] "page-hero"
+[24-Dec-2022 05:07:27 UTC] "page-hero"
+[24-Dec-2022 05:07:27 UTC] "page-hero"
+[24-Dec-2022 05:07:32 UTC] "page-hero"
+[24-Dec-2022 05:07:32 UTC] "page-hero"
+[24-Dec-2022 05:07:33 UTC] "page-hero"
+[24-Dec-2022 05:07:33 UTC] "page-hero"
+[24-Dec-2022 05:07:33 UTC] "page-hero"
+[24-Dec-2022 05:07:33 UTC] "page-hero"
+[24-Dec-2022 05:07:33 UTC] "page-hero"
+[24-Dec-2022 05:07:33 UTC] "page-hero"
+[24-Dec-2022 05:07:33 UTC] "page-hero"
+[24-Dec-2022 05:07:33 UTC] "page-hero"
+[24-Dec-2022 05:07:33 UTC] "page-hero"
+[24-Dec-2022 05:07:34 UTC] "page-hero"
+[24-Dec-2022 05:07:34 UTC] "page-hero"
+[24-Dec-2022 05:07:38 UTC] "page-hero"
+[24-Dec-2022 05:08:33 UTC] "page-hero"
+[24-Dec-2022 05:09:32 UTC] "page-hero"
+[24-Dec-2022 05:09:32 UTC] "page-hero"
+[24-Dec-2022 05:09:32 UTC] "page-hero"
+[24-Dec-2022 05:09:33 UTC] "page-hero"
+[24-Dec-2022 05:09:33 UTC] "page-hero"
+[24-Dec-2022 05:09:33 UTC] "page-hero"
+[24-Dec-2022 05:09:33 UTC] "page-hero"
+[24-Dec-2022 05:09:33 UTC] "page-hero"
+[24-Dec-2022 05:09:33 UTC] "page-hero"
+[24-Dec-2022 05:09:33 UTC] "page-hero"
+[24-Dec-2022 05:09:33 UTC] "page-hero"
+[24-Dec-2022 05:09:33 UTC] "page-hero"
+[24-Dec-2022 05:09:33 UTC] "page-hero"
+[24-Dec-2022 05:09:53 UTC] "page-hero"
+[24-Dec-2022 05:09:53 UTC] "page-hero"
+[24-Dec-2022 05:09:54 UTC] "page-hero"
+[24-Dec-2022 05:09:54 UTC] "page-hero"
+[24-Dec-2022 05:09:54 UTC] "page-hero"
+[24-Dec-2022 05:09:54 UTC] "page-hero"
+[24-Dec-2022 05:09:54 UTC] "page-hero"
+[24-Dec-2022 05:09:54 UTC] "page-hero"
+[24-Dec-2022 05:09:54 UTC] "page-hero"
+[24-Dec-2022 05:09:54 UTC] "page-hero"
+[24-Dec-2022 05:09:54 UTC] "page-hero"
+[24-Dec-2022 05:09:54 UTC] "page-hero"
+[24-Dec-2022 05:09:54 UTC] "page-hero"
+[24-Dec-2022 05:09:59 UTC] "page-hero"
+[24-Dec-2022 05:10:01 UTC] "page-hero"
+[24-Dec-2022 05:10:01 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:10:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:10:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:10:01 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:10:01 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:10:54 UTC] "page-hero"
+[24-Dec-2022 05:11:09 UTC] "page-hero"
+[24-Dec-2022 05:11:09 UTC] "page-hero"
+[24-Dec-2022 05:11:10 UTC] "page-hero"
+[24-Dec-2022 05:11:10 UTC] "page-hero"
+[24-Dec-2022 05:11:10 UTC] "page-hero"
+[24-Dec-2022 05:11:10 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:11:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:11:10 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:11:10 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:11:10 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:11:10 UTC] "page-hero"
+[24-Dec-2022 05:11:10 UTC] "page-hero"
+[24-Dec-2022 05:11:10 UTC] "page-hero"
+[24-Dec-2022 05:11:10 UTC] "page-hero"
+[24-Dec-2022 05:11:10 UTC] "page-hero"
+[24-Dec-2022 05:11:10 UTC] "page-hero"
+[24-Dec-2022 05:11:10 UTC] "page-hero"
+[24-Dec-2022 05:11:10 UTC] "page-hero"
+[24-Dec-2022 05:11:10 UTC] "page-hero"
+[24-Dec-2022 05:11:12 UTC] "page-hero"
+[24-Dec-2022 05:12:10 UTC] "page-hero"
+[24-Dec-2022 05:13:10 UTC] "page-hero"
+[24-Dec-2022 05:13:16 UTC] "page-hero"
+[24-Dec-2022 05:13:16 UTC] "page-hero"
+[24-Dec-2022 05:13:17 UTC] "page-hero"
+[24-Dec-2022 05:13:17 UTC] "page-hero"
+[24-Dec-2022 05:13:17 UTC] "page-hero"
+[24-Dec-2022 05:13:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:13:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:13:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:13:17 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:13:17 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:13:17 UTC] "page-hero"
+[24-Dec-2022 05:13:17 UTC] "page-hero"
+[24-Dec-2022 05:13:18 UTC] "page-hero"
+[24-Dec-2022 05:13:18 UTC] "page-hero"
+[24-Dec-2022 05:13:18 UTC] "page-hero"
+[24-Dec-2022 05:13:18 UTC] "page-hero"
+[24-Dec-2022 05:13:18 UTC] "page-hero"
+[24-Dec-2022 05:13:18 UTC] "page-hero"
+[24-Dec-2022 05:13:18 UTC] "page-hero"
+[24-Dec-2022 05:13:57 UTC] "page-hero"
+[24-Dec-2022 05:13:57 UTC] "page-hero"
+[24-Dec-2022 05:13:57 UTC] "page-hero"
+[24-Dec-2022 05:13:58 UTC] "page-hero"
+[24-Dec-2022 05:13:58 UTC] "page-hero"
+[24-Dec-2022 05:13:58 UTC] "page-hero"
+[24-Dec-2022 05:13:58 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:13:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:13:58 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:13:58 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:13:58 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:13:58 UTC] "page-hero"
+[24-Dec-2022 05:13:58 UTC] "page-hero"
+[24-Dec-2022 05:13:58 UTC] "page-hero"
+[24-Dec-2022 05:13:59 UTC] "page-hero"
+[24-Dec-2022 05:13:59 UTC] "page-hero"
+[24-Dec-2022 05:13:59 UTC] "page-hero"
+[24-Dec-2022 05:13:59 UTC] "page-hero"
+[24-Dec-2022 05:13:59 UTC] "page-hero"
+[24-Dec-2022 05:13:59 UTC] "page-hero"
+[24-Dec-2022 05:14:59 UTC] "page-hero"
+[24-Dec-2022 05:14:59 UTC] "page-hero"
+[24-Dec-2022 05:15:37 UTC] "page-hero"
+[24-Dec-2022 05:15:37 UTC] "page-hero"
+[24-Dec-2022 05:15:37 UTC] "page-hero"
+[24-Dec-2022 05:15:38 UTC] "page-hero"
+[24-Dec-2022 05:15:38 UTC] "page-hero"
+[24-Dec-2022 05:15:38 UTC] "page-hero"
+[24-Dec-2022 05:15:38 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:15:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:15:38 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:15:38 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:15:38 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:15:38 UTC] "page-hero"
+[24-Dec-2022 05:15:38 UTC] "page-hero"
+[24-Dec-2022 05:15:38 UTC] "page-hero"
+[24-Dec-2022 05:15:38 UTC] "page-hero"
+[24-Dec-2022 05:15:38 UTC] "page-hero"
+[24-Dec-2022 05:15:38 UTC] "page-hero"
+[24-Dec-2022 05:15:38 UTC] "page-hero"
+[24-Dec-2022 05:15:38 UTC] "page-hero"
+[24-Dec-2022 05:15:38 UTC] "page-hero"
+[24-Dec-2022 05:15:52 UTC] "page-hero"
+[24-Dec-2022 05:15:52 UTC] "page-hero"
+[24-Dec-2022 05:15:52 UTC] "page-hero"
+[24-Dec-2022 05:15:53 UTC] "page-hero"
+[24-Dec-2022 05:15:53 UTC] "page-hero"
+[24-Dec-2022 05:15:53 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:15:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:15:53 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:15:53 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:15:53 UTC] "page-hero"
+[24-Dec-2022 05:15:53 UTC] "page-hero"
+[24-Dec-2022 05:15:53 UTC] "page-hero"
+[24-Dec-2022 05:15:53 UTC] "page-hero"
+[24-Dec-2022 05:15:53 UTC] "page-hero"
+[24-Dec-2022 05:15:53 UTC] "page-hero"
+[24-Dec-2022 05:15:53 UTC] "page-hero"
+[24-Dec-2022 05:15:53 UTC] "page-hero"
+[24-Dec-2022 05:15:53 UTC] "page-hero"
+[24-Dec-2022 05:15:53 UTC] "page-hero"
+[24-Dec-2022 05:15:57 UTC] "page-hero"
+[24-Dec-2022 05:15:59 UTC] "page-hero"
+[24-Dec-2022 05:15:59 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:15:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:15:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:15:59 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:15:59 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:16:23 UTC] "page-hero"
+[24-Dec-2022 05:16:23 UTC] "page-hero"
+[24-Dec-2022 05:16:24 UTC] "page-hero"
+[24-Dec-2022 05:16:25 UTC] "page-hero"
+[24-Dec-2022 05:16:25 UTC] "page-hero"
+[24-Dec-2022 05:16:25 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:16:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:16:25 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:16:25 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:16:25 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:16:25 UTC] "page-hero"
+[24-Dec-2022 05:16:25 UTC] "page-hero"
+[24-Dec-2022 05:16:25 UTC] "page-hero"
+[24-Dec-2022 05:16:25 UTC] "page-hero"
+[24-Dec-2022 05:16:25 UTC] "page-hero"
+[24-Dec-2022 05:16:25 UTC] "page-hero"
+[24-Dec-2022 05:16:25 UTC] "page-hero"
+[24-Dec-2022 05:16:25 UTC] "page-hero"
+[24-Dec-2022 05:16:25 UTC] "page-hero"
+[24-Dec-2022 05:16:28 UTC] "page-hero"
+[24-Dec-2022 05:17:04 UTC] "page-hero"
+[24-Dec-2022 05:17:04 UTC] "page-hero"
+[24-Dec-2022 05:17:05 UTC] "page-hero"
+[24-Dec-2022 05:17:05 UTC] "page-hero"
+[24-Dec-2022 05:17:05 UTC] "page-hero"
+[24-Dec-2022 05:17:05 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:17:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:17:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:17:05 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:17:05 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:17:05 UTC] "page-hero"
+[24-Dec-2022 05:17:05 UTC] "page-hero"
+[24-Dec-2022 05:17:05 UTC] "page-hero"
+[24-Dec-2022 05:17:05 UTC] "page-hero"
+[24-Dec-2022 05:17:05 UTC] "page-hero"
+[24-Dec-2022 05:17:05 UTC] "page-hero"
+[24-Dec-2022 05:17:05 UTC] "page-hero"
+[24-Dec-2022 05:17:05 UTC] "page-hero"
+[24-Dec-2022 05:17:05 UTC] "page-hero"
+[24-Dec-2022 05:17:56 UTC] "page-hero"
+[24-Dec-2022 05:17:56 UTC] "page-hero"
+[24-Dec-2022 05:17:56 UTC] "page-hero"
+[24-Dec-2022 05:17:57 UTC] "page-hero"
+[24-Dec-2022 05:17:57 UTC] "page-hero"
+[24-Dec-2022 05:17:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:17:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:17:57 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:17:57 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:17:57 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:17:57 UTC] "page-hero"
+[24-Dec-2022 05:17:57 UTC] "page-hero"
+[24-Dec-2022 05:17:57 UTC] "page-hero"
+[24-Dec-2022 05:17:57 UTC] "page-hero"
+[24-Dec-2022 05:17:57 UTC] "page-hero"
+[24-Dec-2022 05:17:57 UTC] "page-hero"
+[24-Dec-2022 05:17:58 UTC] "page-hero"
+[24-Dec-2022 05:17:58 UTC] "page-hero"
+[24-Dec-2022 05:17:58 UTC] "page-hero"
+[24-Dec-2022 05:17:59 UTC] "page-hero"
+[24-Dec-2022 05:18:57 UTC] "page-hero"
+[24-Dec-2022 05:19:11 UTC] "page-hero"
+[24-Dec-2022 05:19:11 UTC] "page-hero"
+[24-Dec-2022 05:19:11 UTC] "page-hero"
+[24-Dec-2022 05:19:12 UTC] "page-hero"
+[24-Dec-2022 05:19:12 UTC] "page-hero"
+[24-Dec-2022 05:19:12 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:19:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:19:12 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:19:12 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:19:12 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:19:12 UTC] "page-hero"
+[24-Dec-2022 05:19:12 UTC] "page-hero"
+[24-Dec-2022 05:19:12 UTC] "page-hero"
+[24-Dec-2022 05:19:12 UTC] "page-hero"
+[24-Dec-2022 05:19:12 UTC] "page-hero"
+[24-Dec-2022 05:19:12 UTC] "page-hero"
+[24-Dec-2022 05:19:12 UTC] "page-hero"
+[24-Dec-2022 05:19:12 UTC] "page-hero"
+[24-Dec-2022 05:19:13 UTC] "page-hero"
+[24-Dec-2022 05:19:13 UTC] "page-hero"
+[24-Dec-2022 05:19:32 UTC] "page-hero"
+[24-Dec-2022 05:19:32 UTC] "page-hero"
+[24-Dec-2022 05:19:33 UTC] "page-hero"
+[24-Dec-2022 05:19:33 UTC] "page-hero"
+[24-Dec-2022 05:19:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:19:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:19:33 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:19:33 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:19:33 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:19:33 UTC] "page-hero"
+[24-Dec-2022 05:19:33 UTC] "page-hero"
+[24-Dec-2022 05:19:33 UTC] "page-hero"
+[24-Dec-2022 05:19:33 UTC] "page-hero"
+[24-Dec-2022 05:19:33 UTC] "page-hero"
+[24-Dec-2022 05:19:33 UTC] "page-hero"
+[24-Dec-2022 05:19:33 UTC] "page-hero"
+[24-Dec-2022 05:19:33 UTC] "page-hero"
+[24-Dec-2022 05:19:33 UTC] "page-hero"
+[24-Dec-2022 05:19:34 UTC] "page-hero"
+[24-Dec-2022 05:20:33 UTC] "page-hero"
+[24-Dec-2022 05:21:33 UTC] "page-hero"
+[24-Dec-2022 05:22:33 UTC] "page-hero"
+[24-Dec-2022 05:22:41 UTC] "page-hero"
+[24-Dec-2022 05:22:41 UTC] "page-hero"
+[24-Dec-2022 05:22:42 UTC] "page-hero"
+[24-Dec-2022 05:22:42 UTC] "page-hero"
+[24-Dec-2022 05:22:42 UTC] "page-hero"
+[24-Dec-2022 05:22:42 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:22:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:22:42 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:22:42 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:22:42 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:22:42 UTC] "page-hero"
+[24-Dec-2022 05:22:42 UTC] "page-hero"
+[24-Dec-2022 05:22:42 UTC] "page-hero"
+[24-Dec-2022 05:22:42 UTC] "page-hero"
+[24-Dec-2022 05:22:42 UTC] "page-hero"
+[24-Dec-2022 05:22:42 UTC] "page-hero"
+[24-Dec-2022 05:22:43 UTC] "page-hero"
+[24-Dec-2022 05:22:43 UTC] "page-hero"
+[24-Dec-2022 05:22:45 UTC] "page-hero"
+[24-Dec-2022 05:23:42 UTC] "page-hero"
+[24-Dec-2022 05:24:05 UTC] "page-hero"
+[24-Dec-2022 05:24:07 UTC] "page-hero"
+[24-Dec-2022 05:24:07 UTC] "page-hero"
+[24-Dec-2022 05:24:08 UTC] "page-hero"
+[24-Dec-2022 05:24:08 UTC] "page-hero"
+[24-Dec-2022 05:24:08 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:24:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:24:08 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:24:08 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:24:08 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:24:08 UTC] "page-hero"
+[24-Dec-2022 05:24:08 UTC] "page-hero"
+[24-Dec-2022 05:24:08 UTC] "page-hero"
+[24-Dec-2022 05:24:08 UTC] "page-hero"
+[24-Dec-2022 05:24:08 UTC] "page-hero"
+[24-Dec-2022 05:24:08 UTC] "page-hero"
+[24-Dec-2022 05:24:08 UTC] "page-hero"
+[24-Dec-2022 05:24:08 UTC] "page-hero"
+[24-Dec-2022 05:24:09 UTC] "page-hero"
+[24-Dec-2022 05:25:07 UTC] "page-hero"
+[24-Dec-2022 05:27:05 UTC] "page-hero"
+[24-Dec-2022 05:27:06 UTC] "page-hero"
+[24-Dec-2022 05:27:06 UTC] "page-hero"
+[24-Dec-2022 05:27:07 UTC] "page-hero"
+[24-Dec-2022 05:27:07 UTC] "page-hero"
+[24-Dec-2022 05:27:07 UTC] "page-hero"
+[24-Dec-2022 05:27:07 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:27:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:27:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:27:07 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:27:07 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:27:07 UTC] "page-hero"
+[24-Dec-2022 05:27:07 UTC] "page-hero"
+[24-Dec-2022 05:27:07 UTC] "page-hero"
+[24-Dec-2022 05:27:07 UTC] "page-hero"
+[24-Dec-2022 05:27:07 UTC] "page-hero"
+[24-Dec-2022 05:27:07 UTC] "page-hero"
+[24-Dec-2022 05:27:07 UTC] "page-hero"
+[24-Dec-2022 05:27:07 UTC] "page-hero"
+[24-Dec-2022 05:27:08 UTC] "page-hero"
+[24-Dec-2022 05:27:25 UTC] "page-hero"
+[24-Dec-2022 05:27:25 UTC] "page-hero"
+[24-Dec-2022 05:27:25 UTC] "page-hero"
+[24-Dec-2022 05:27:26 UTC] "page-hero"
+[24-Dec-2022 05:27:26 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:27:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:27:26 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:27:26 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:27:26 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:27:26 UTC] "page-hero"
+[24-Dec-2022 05:27:26 UTC] "page-hero"
+[24-Dec-2022 05:27:26 UTC] "page-hero"
+[24-Dec-2022 05:27:26 UTC] "page-hero"
+[24-Dec-2022 05:27:26 UTC] "page-hero"
+[24-Dec-2022 05:27:26 UTC] "page-hero"
+[24-Dec-2022 05:27:26 UTC] "page-hero"
+[24-Dec-2022 05:27:26 UTC] "page-hero"
+[24-Dec-2022 05:27:26 UTC] "page-hero"
+[24-Dec-2022 05:27:28 UTC] "page-hero"
+[24-Dec-2022 05:27:53 UTC] "page-hero"
+[24-Dec-2022 05:27:53 UTC] "page-hero"
+[24-Dec-2022 05:27:54 UTC] "page-hero"
+[24-Dec-2022 05:27:55 UTC] "page-hero"
+[24-Dec-2022 05:27:55 UTC] "page-hero"
+[24-Dec-2022 05:27:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:27:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:27:55 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:27:55 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:27:55 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:27:55 UTC] "page-hero"
+[24-Dec-2022 05:27:55 UTC] "page-hero"
+[24-Dec-2022 05:27:55 UTC] "page-hero"
+[24-Dec-2022 05:27:55 UTC] "page-hero"
+[24-Dec-2022 05:27:55 UTC] "page-hero"
+[24-Dec-2022 05:27:55 UTC] "page-hero"
+[24-Dec-2022 05:27:55 UTC] "page-hero"
+[24-Dec-2022 05:27:55 UTC] "page-hero"
+[24-Dec-2022 05:27:55 UTC] "page-hero"
+[24-Dec-2022 05:27:56 UTC] "page-hero"
+[24-Dec-2022 05:28:55 UTC] "page-hero"
+[24-Dec-2022 05:29:19 UTC] "page-hero"
+[24-Dec-2022 05:29:19 UTC] "page-hero"
+[24-Dec-2022 05:29:20 UTC] "page-hero"
+[24-Dec-2022 05:29:20 UTC] "page-hero"
+[24-Dec-2022 05:29:20 UTC] "page-hero"
+[24-Dec-2022 05:29:20 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:29:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:29:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:29:20 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:29:20 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:29:20 UTC] "page-hero"
+[24-Dec-2022 05:29:20 UTC] "page-hero"
+[24-Dec-2022 05:29:20 UTC] "page-hero"
+[24-Dec-2022 05:29:20 UTC] "page-hero"
+[24-Dec-2022 05:29:20 UTC] "page-hero"
+[24-Dec-2022 05:29:21 UTC] "page-hero"
+[24-Dec-2022 05:29:21 UTC] "page-hero"
+[24-Dec-2022 05:29:21 UTC] "page-hero"
+[24-Dec-2022 05:29:23 UTC] "page-hero"
+[24-Dec-2022 05:29:38 UTC] "page-hero"
+[24-Dec-2022 05:29:38 UTC] "page-hero"
+[24-Dec-2022 05:29:39 UTC] "page-hero"
+[24-Dec-2022 05:29:39 UTC] "page-hero"
+[24-Dec-2022 05:29:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:29:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:29:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:29:39 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:29:39 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:29:39 UTC] "page-hero"
+[24-Dec-2022 05:29:39 UTC] "page-hero"
+[24-Dec-2022 05:29:40 UTC] "page-hero"
+[24-Dec-2022 05:29:40 UTC] "page-hero"
+[24-Dec-2022 05:29:40 UTC] "page-hero"
+[24-Dec-2022 05:29:40 UTC] "page-hero"
+[24-Dec-2022 05:29:40 UTC] "page-hero"
+[24-Dec-2022 05:29:40 UTC] "page-hero"
+[24-Dec-2022 05:29:40 UTC] "page-hero"
+[24-Dec-2022 05:29:42 UTC] "page-hero"
+[24-Dec-2022 05:30:17 UTC] "page-hero"
+[24-Dec-2022 05:30:17 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:30:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:30:17 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 11
+[24-Dec-2022 05:30:17 UTC] PHP Warning:  Undefined array key "primary-navigation" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:30:17 UTC] PHP Warning:  Undefined property: WP_Error::$name in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/template-parts/navbar.php on line 24
+[24-Dec-2022 05:30:19 UTC] "page-hero"
+[24-Dec-2022 05:30:39 UTC] "page-hero"
+[24-Dec-2022 05:32:40 UTC] "page-hero"

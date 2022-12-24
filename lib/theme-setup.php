@@ -88,7 +88,7 @@ add_action('after_setup_theme', function () {
 		add_theme_support( 'align-wide' );
 		add_theme_support( 'custom-line-height' );
 		add_theme_support( 'editor-styles' );
-		add_editor_style( 'assets/css/editor.css' );
+		add_editor_style( 'public/css/editor.css' );
 }, 20);
 
 // image sizes
