@@ -20,10 +20,10 @@ function theme_register_blocks()
 		return;
 	}
 	
+	//TODO called 3 times
 	foreach([
 		'page-hero',
 	] as $label) {
-		error_log(json_encode($label, JSON_PRETTY_PRINT));//debug
 		acf_register_block([ //TODO
 			'name'			=> $label,
 			'title'			=> implode(' ', array_map(function($w) {return ucfirst($w);}, explode('-', $label))),

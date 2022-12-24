@@ -12,6 +12,7 @@ function initSetup() {
    // add_action('after_setup_theme', 'setup');
    $auto = new AutoSetup();
    $auto->init_home();
+   $auto->sync_menus();
    return new WP_REST_Response(['complete']);
    // return json_encode(['complete']);
 }
@@ -62,5 +63,7 @@ final class AutoSetup { //TODO memo persistence
 		//add content to home page
 	}
 
-   public function sync_menus() {}
+   public function sync_menus() {
+		error_log(json_encode( wp_get_nav_menus() , JSON_PRETTY_PRINT));//debug
+	}
 }
