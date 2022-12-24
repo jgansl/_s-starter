@@ -266,3 +266,83 @@ function get_vimeo_id($vimeo_url) {
    preg_match('/(https?:\/\/)?(www\.)?(player\.)?vimeo\.com\/([a-z]*\/)*([0-9]{6,11})[?]?.*/', $vimeo_url, $match);
    return $match[5];
 };
+
+function get_mapbox_token() { //@see Hi5
+	error_log(json_encode('Add MAPBOX TOKEN', JSON_PRETTY_PRINT));//debug
+}
+
+
+require require get_template_directory() . '/lib/theme-enqueue.php';
+require require get_template_directory() . '/blocks/_blocks.php';
+// require require get_template_directory() . '/blocks/theme-rest.php';
+
+if(IS_LOCAL) {
+	require require get_template_directory() . '/lib/util/_dev.php';
+
+	if(REMOTE_URL) {
+		require_once "lib/util/remote-media/remote-media.php";
+		add_filter(
+			'be_media_from_production_url',
+			function () {
+				return REMOTE_URL;
+			}
+		);
+	}
+}
+
+// options
+function get_option_fields() {
+   global $option_fields;
+   if(!defined('option_fields')) {
+		$option_fields = get_fields('options');
+   }
+}
+
+add_action('template_redirect', 'fetch_option_fields');
+
+/** ADDITIONAL FILE TYPE SUPPORT */
+function webp_is_displayable($result, $path) {
+	if ($result === false) {
+		 $displayable_image_types = array( IMAGETYPE_WEBP );
+		 $info = @getimagesize( $path );
+		 if (empty($info)) {
+			  $result = false;
+		 } elseif (!in_array($info[2], $displayable_image_types)) {
+			  $result = false;
+		 } else {
+			  $result = true;
+		 }
+	}
+	return $result;
+}
+add_filter('file_is_displayable_image', 'webp_is_displayable', 10, 2);
+
+function cc_mime_types( $mimes ){
+	$mimes['svg'] = 'image/svg+xml'; //TODO
+	$mimes['webp'] = 'image/webp';
+	return $mimes;
+ }
+ add_filter( 'upload_mimes', 'cc_mime_types' );
+ function fix_svg() {
+	echo '<style type="text/css">
+			.attachment-266x266, .thumbnail img {
+				  width: 100% !important;
+				  height: auto !important;
+			}
+			</style>';
+ }
+
+
+ /** Auto-Generate Single Post Template Content */
+//TODO add_filter( 'default_content', 'set_default_content', 10, 2 );
+function set_default_content( $content, $post ) {
+	/** print_r */
+	if($post->post_status == "auto-draft" && !$post->post_content) {
+		if('team' == $post->post_type) {
+			// $content = "
+			// <!-- wp:acf/faqs {\"id\":\"block_63599568dd90a\",\"name\":\"acf/faqs\",\"data\":{\"faqs_heading\":\"FAQs\",\"_faqs_heading\":\"field_63599b41caf20\",\"faqs\":\"\",\"_faqs\":\"field_63599664e109b\"},\"align\":\"\",\"mode\":\"edit\"} /-->
+			// ";
+		}
+	}
+	return $content;
+}

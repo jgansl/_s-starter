@@ -1,3 +1,7 @@
 - remove repo
 - remove rfs - ignore
 - setup remotes
+- update package.json, style.css, TEXTDOMAIN, remote media
+- autosetup
+- update readme
+- serach replace '_s'

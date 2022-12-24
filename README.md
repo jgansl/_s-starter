@@ -1,18 +1,6 @@
-- remove site tagline
--
-- ssl
-- acf,read file svg, products cpt
-- remove swing, etc.
-- media library alts
-- scss - \$blue-dark
-- console
-- #TODO
-- #svg safari
-- cash jquery rep
-- reduce fonts
-- 
-- taxonomy in single url
-
+# <THEME>
+- upload zip to wpe - gitignore
+- modernizr
 
 ## Setup
 

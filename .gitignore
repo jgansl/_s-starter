@@ -13,5 +13,5 @@ build
 pnpm-lock.yaml
 scripts/env
 env/
-
+packaged
 __integrate/

@@ -20,29 +20,8 @@ function theme_register_blocks()
 		return;
 	}
 	
-	foreach([ //TODO autogenerate field group for new blocks
-		'article-slider',
-		'about-overview',
-		'about-press',
-		'best-sellers',
-		'drink-description',
-		'drink-properties',
-		'drink-reviews',
-		'drink-slider',
-		'drink-weed',
-		'drinks-content',
-		'email-subscription',
-		'faqs',
-		'faqs-live-chat',
-		'featured-grid',
-		'hero',
-		'home-fast-acting',
-		'home-hero',
-		'instagram',
-		'join',
-		'shop-map-locations',
-		'shop-near-me',
-		'shop-search'
+	foreach([
+		'page hero',
 	] as $label) {
 		acf_register_block([ //TODO
 			'name'			=> $label,
@@ -51,7 +30,7 @@ function theme_register_blocks()
 			'category'		=> 'theme-blocks',
 			'icon'			=> 'button',
 			'mode'			=> 'edit',
-			'keywords'		=> [$label, 'hi5'],
+			'keywords'		=> array_merge(explode('-', $label), explode("-", TEXTDOMAIN)),
 			'supports' => ['align' => false],
 		]);
 	}
@@ -64,10 +43,10 @@ function theme_register_blocks_style()
 		register_block_style(
 			'core/group',
 			array(
-				'name'         => 'bg-blue-wave',
-				'label'        => __('Blue Wave Background', 'textdomain'),
-				'is_default'   => false,
-				'inline_style' => '.wp-block-group.is-style-blue-wave',
+				'name'         => 'bg-colored',
+				'label'        => __('Colored Background', TEXTDOMAIN),
+				// 'is_default'   => false,
+				// 'inline_style' => '.wp-block-group.is-style-bg-colored',
 			)
 		);
 	}

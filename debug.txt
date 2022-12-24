@@ -1,0 +1,115 @@
+[24-Dec-2022 01:23:57 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IS_LOCAL" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php:14
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-settings.php(585): include()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-config.php(91): require_once('/Users/jessegan...')
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-load.php(50): require_once('/Users/jessegan...')
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jessegan...')
+#4 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php on line 14
+[24-Dec-2022 01:24:57 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "IS_LOCAL" in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php:14
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-settings.php(585): include()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-config.php(91): require_once('/Users/jessegan...')
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-load.php(50): require_once('/Users/jessegan...')
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jessegan...')
+#4 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php on line 14
+[24-Dec-2022 01:26:57 UTC] PHP Warning:  require_once(lib/cpt/team.php): Failed to open stream: No such file or directory in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php on line 15
+[24-Dec-2022 01:26:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'lib/cpt/team.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php:15
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-settings.php(585): include()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-config.php(91): require_once('/Users/jessegan...')
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-load.php(50): require_once('/Users/jessegan...')
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jessegan...')
+#4 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php on line 15
+[24-Dec-2022 01:28:37 UTC] PHP Warning:  require(1): Failed to open stream: No such file or directory in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 270
+[24-Dec-2022 01:28:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '1' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php:270
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php(15): require()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-settings.php(585): include('/Users/jessegan...')
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-config.php(91): require_once('/Users/jessegan...')
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-load.php(50): require_once('/Users/jessegan...')
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jessegan...')
+#5 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 270
+[24-Dec-2022 01:29:37 UTC] PHP Warning:  require(1): Failed to open stream: No such file or directory in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 270
+[24-Dec-2022 01:29:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '1' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php:270
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php(15): require()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-settings.php(585): include('/Users/jessegan...')
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-config.php(91): require_once('/Users/jessegan...')
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-load.php(50): require_once('/Users/jessegan...')
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jessegan...')
+#5 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 270
+[24-Dec-2022 01:31:37 UTC] PHP Warning:  require(1): Failed to open stream: No such file or directory in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 275
+[24-Dec-2022 01:31:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '1' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php:275
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php(15): require()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-settings.php(585): include('/Users/jessegan...')
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-config.php(91): require_once('/Users/jessegan...')
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-load.php(50): require_once('/Users/jessegan...')
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jessegan...')
+#5 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 275
+[24-Dec-2022 01:33:37 UTC] PHP Warning:  require(1): Failed to open stream: No such file or directory in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 275
+[24-Dec-2022 01:33:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '1' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php:275
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php(15): require()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-settings.php(585): include('/Users/jessegan...')
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-config.php(91): require_once('/Users/jessegan...')
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-load.php(50): require_once('/Users/jessegan...')
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jessegan...')
+#5 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 275
+[24-Dec-2022 01:35:37 UTC] PHP Warning:  require(1): Failed to open stream: No such file or directory in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 275
+[24-Dec-2022 01:35:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '1' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php:275
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php(15): require()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-settings.php(585): include('/Users/jessegan...')
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-config.php(91): require_once('/Users/jessegan...')
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-load.php(50): require_once('/Users/jessegan...')
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jessegan...')
+#5 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 275
+[24-Dec-2022 01:37:37 UTC] PHP Warning:  require(1): Failed to open stream: No such file or directory in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 275
+[24-Dec-2022 01:37:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '1' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php:275
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php(15): require()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-settings.php(585): include('/Users/jessegan...')
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-config.php(91): require_once('/Users/jessegan...')
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-load.php(50): require_once('/Users/jessegan...')
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jessegan...')
+#5 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 275
+[24-Dec-2022 01:43:35 UTC] PHP Warning:  require(1): Failed to open stream: No such file or directory in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 275
+[24-Dec-2022 01:43:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '1' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php:275
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php(15): require()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-settings.php(585): include('/Users/jessegan...')
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-config.php(91): require_once('/Users/jessegan...')
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-load.php(50): require_once('/Users/jessegan...')
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jessegan...')
+#5 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 275
+[24-Dec-2022 01:44:36 UTC] PHP Warning:  require(1): Failed to open stream: No such file or directory in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 275
+[24-Dec-2022 01:44:36 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '1' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php:275
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php(15): require()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-settings.php(585): include('/Users/jessegan...')
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-config.php(91): require_once('/Users/jessegan...')
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-load.php(50): require_once('/Users/jessegan...')
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jessegan...')
+#5 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 275
+[24-Dec-2022 01:46:37 UTC] PHP Warning:  require(1): Failed to open stream: No such file or directory in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 275
+[24-Dec-2022 01:46:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '1' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php:275
+Stack trace:
+#0 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/functions.php(15): require()
+#1 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-settings.php(585): include('/Users/jessegan...')
+#2 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-config.php(91): require_once('/Users/jessegan...')
+#3 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-load.php(50): require_once('/Users/jessegan...')
+#4 /Users/jessegansler/Local Sites/adevbuild/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/jessegan...')
+#5 {main}
+  thrown in /Users/jessegansler/Local Sites/adevbuild/app/public/wp-content/themes/_s-starter/lib/theme-setup.php on line 275
