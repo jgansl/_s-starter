@@ -1,7 +1,11 @@
 @import './reset';
 // @import './bootstrap';
 // @import './util';
+
 // @import './tailwind';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --navbar-height: 96px;

@@ -3,6 +3,7 @@
 - modernizr
 - css enqueueing - scss folder geneation
 - menu generation
+- tailwind-scss integration
 
 ## Setup
 
