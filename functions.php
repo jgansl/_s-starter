@@ -1,8 +1,8 @@
 <?php
 ini_set("error_log", get_template_directory() . "/debug.txt");
 
-if ( ! defined( 'ISLOCAL' ) ) {
-	define('ISLOCAL', wp_get_environment_type() == 'local');
+if ( ! defined( 'IS_LOCAL' ) ) {
+	define('IS_LOCAL', wp_get_environment_type() == 'local');
 }
 if ( ! defined( 'TEXTDOMAIN' ) ) {
 	define('TEXTDOMAIN', '_s');

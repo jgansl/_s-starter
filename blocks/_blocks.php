@@ -21,7 +21,7 @@ function theme_register_blocks()
 	}
 	
 	foreach([
-		'page hero',
+		'page-hero',
 	] as $label) {
 		acf_register_block([ //TODO
 			'name'			=> $label,
@@ -49,6 +49,12 @@ function theme_register_blocks_style()
 				// 'inline_style' => '.wp-block-group.is-style-bg-colored',
 			)
 		);
+		register_block_style( 'core/heading',array('name'=> 'title-is-1','label'=>__('Size 1', TEXTDOMAIN), ) );
+		register_block_style( 'core/heading',array('name'=> 'title-is-2','label'=>__('Size 2', TEXTDOMAIN), ) );
+		register_block_style( 'core/heading',array('name'=> 'title-is-3','label'=>__('Size 3', TEXTDOMAIN), ) );
+		register_block_style( 'core/heading',array('name'=> 'title-is-4','label'=>__('Size 4', TEXTDOMAIN), ) );
+		register_block_style( 'core/heading',array('name'=> 'title-is-5','label'=>__('Size 5', TEXTDOMAIN), ) );
+		register_block_style( 'core/heading',array('name'=> 'title-is-6','label'=>__('Size 6', TEXTDOMAIN), ) );
 	}
 }
 add_action('acf/init', 'theme_register_blocks_style');

@@ -1,6 +1,7 @@
 # <THEME>
 - upload zip to wpe - gitignore
 - modernizr
+- css enqueueing - scss folder geneation
 
 ## Setup
 

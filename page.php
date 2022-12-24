@@ -11,6 +11,8 @@ get_header();
 
 <?php the_content(); ?>
 
+<?php print_r(get_the_content()); ?>
+
          </div>
       </div>
    </div>

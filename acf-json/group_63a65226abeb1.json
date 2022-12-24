@@ -1,13 +1,31 @@
 {
     "key": "group_63a65226abeb1",
     "title": "Hero",
-    "fields": [],
+    "fields": [
+        {
+            "key": "field_63a65b2e2de8a",
+            "label": "Page Hero",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        }
+    ],
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "block",
                 "operator": "==",
-                "value": "post"
+                "value": "acf\/page-hero"
             }
         ]
     ],
@@ -20,5 +38,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1671844616
+    "modified": 1671846711
 }

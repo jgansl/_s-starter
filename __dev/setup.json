@@ -1,0 +1,9 @@
+{
+  "pages": [
+    ["Home", "/front-page.php"]
+  ],
+  "menus": {
+    "primary-navigation":[
+    ]
+  }
+}

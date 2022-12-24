@@ -268,18 +268,20 @@ function get_vimeo_id($vimeo_url) {
 };
 
 function get_mapbox_token() { //@see Hi5
-	error_log(json_encode('Add MAPBOX TOKEN', JSON_PRETTY_PRINT));//debug
+	error_log(json_encode('Add MAPBOX TOKEN - theme.setup.php', JSON_PRETTY_PRINT));//debug
 }
 
 
-require require get_template_directory() . '/lib/theme-enqueue.php';
-require require get_template_directory() . '/blocks/_blocks.php';
-// require require get_template_directory() . '/blocks/theme-rest.php';
+require get_template_directory() . '/lib/theme-enqueue.php';
+require get_template_directory() . '/blocks/_blocks.php';
+// require get_template_directory() . '/blocks/theme-rest.php';
 
 if(IS_LOCAL) {
-	require require get_template_directory() . '/lib/util/_dev.php';
+	if(file_exists(get_template_directory() . '/__dev/autosetup.php')) {
+		require get_template_directory() . '/__dev/autosetup.php';
+	}
 
-	if(REMOTE_URL) {
+	if(defined( 'REMOTE_URL' )) {
 		require_once "lib/util/remote-media/remote-media.php";
 		add_filter(
 			'be_media_from_production_url',
@@ -298,7 +300,7 @@ function get_option_fields() {
    }
 }
 
-add_action('template_redirect', 'fetch_option_fields');
+add_action('template_redirect', 'get_option_fields');
 
 /** ADDITIONAL FILE TYPE SUPPORT */
 function webp_is_displayable($result, $path) {
