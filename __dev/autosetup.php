@@ -64,6 +64,8 @@ final class AutoSetup { //TODO memo persistence
 	}
 
    public function sync_menus() {
-		error_log(json_encode( wp_get_nav_menus() , JSON_PRETTY_PRINT));//debug
+		if(!wp_get_nav_menus()) {
+			
+		}
 	}
 }
